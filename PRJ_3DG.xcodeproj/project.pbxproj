@@ -120,6 +120,7 @@
 		0847B18C18E3B9FA00B5AFAC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0847B18B18E3B9FA00B5AFAC /* CFNetwork.framework */; };
 		0847B18E18E3BA1D00B5AFAC /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0847B18D18E3BA1D00B5AFAC /* libz.1.2.5.dylib */; };
 		0847B19018E3BA5600B5AFAC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0847B18F18E3BA5600B5AFAC /* MobileCoreServices.framework */; };
+		08BEEF4618EB18900083F619 /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BEEF4518EB18900083F619 /* ShoppingCartViewController.m */; };
 		08FB52D218E2EA4500D90D27 /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB52C118E2EA4500D90D27 /* Base.m */; };
 		08FB52D318E2EA4500D90D27 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB52C418E2EA4500D90D27 /* Response.m */; };
 		08FB52D418E2EA4500D90D27 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB52C618E2EA4500D90D27 /* User.m */; };
@@ -350,6 +351,8 @@
 		0847B18B18E3B9FA00B5AFAC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		0847B18D18E3BA1D00B5AFAC /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		0847B18F18E3BA5600B5AFAC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		08BEEF4418EB18900083F619 /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
+		08BEEF4518EB18900083F619 /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
 		08FB52BC18E2EA4500D90D27 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		08FB52C018E2EA4500D90D27 /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
 		08FB52C118E2EA4500D90D27 /* Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base.m; sourceTree = "<group>"; };
@@ -877,6 +880,15 @@
 			path = S3;
 			sourceTree = "<group>";
 		};
+		08BEEF4718EB18950083F619 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				08BEEF4418EB18900083F619 /* ShoppingCartViewController.h */,
+				08BEEF4518EB18900083F619 /* ShoppingCartViewController.m */,
+			);
+			name = ShoppingCart;
+			sourceTree = "<group>";
+		};
 		08FB52BB18E2EA4500D90D27 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -888,6 +900,7 @@
 		08FB52BD18E2EA4500D90D27 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				08BEEF4718EB18950083F619 /* ShoppingCart */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1196,6 +1209,7 @@
 				08353B9018E41DEE009DEDE1 /* SDWebImageDownloaderOperation.m in Sources */,
 				08353B6718E41DDC009DEDE1 /* AsyncSocket.m in Sources */,
 				08353BA118E41E05009DEDE1 /* CheckNetwork.m in Sources */,
+				08BEEF4618EB18900083F619 /* ShoppingCartViewController.m in Sources */,
 				08338CC918E5B515002B07EA /* UIColor+utils.m in Sources */,
 				08338CC618E5B515002B07EA /* UINavigationController+Rotation_IOS6.m in Sources */,
 				0847B17918E3AFFD00B5AFAC /* ASICloudFilesCDNRequest.m in Sources */,

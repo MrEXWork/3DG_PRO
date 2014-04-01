@@ -15,6 +15,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+//    NSDictionary
     
     self.mainNC = [[UINavigationController alloc]init];
     self.mainTC = [[UITabBarController alloc]init];

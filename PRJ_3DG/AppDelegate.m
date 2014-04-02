@@ -20,6 +20,9 @@
     self.mainNC = [[UINavigationController alloc]init];
     self.mainTC = [[UITabBarController alloc]init];
     
+    NSLog(@"9090");
+    NSArray * testArr = @[@"1",@"2"];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     

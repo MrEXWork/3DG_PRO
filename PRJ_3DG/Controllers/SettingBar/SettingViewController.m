@@ -10,6 +10,8 @@
 #import "OrderViewController.h"
 #import "CollectViewController.h"
 #import "PrivilegeViewController.h"
+#import "ShipingAddressVC.h"
+#import "PasswordViewController.h"
 
 @interface SettingViewController ()
 {
@@ -86,6 +88,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     switch (indexPath.section)
     {
         case 0:
@@ -96,6 +99,8 @@
                 {
                     //订单界面
                     OrderViewController * orderVC = [[OrderViewController alloc]initWithNibName:@"OrderViewController" bundle:nil];
+                    
+                    [orderVC setHidesBottomBarWhenPushed:YES];
                     [self.navigationController pushViewController:orderVC animated:YES];
                 }
                     break;
@@ -103,6 +108,7 @@
                 {
                     //收藏夹
                     CollectViewController * collectVC = [[CollectViewController alloc]init];
+                    [collectVC setHidesBottomBarWhenPushed:YES];
                     [self.navigationController pushViewController:collectVC animated:YES];
                 }
                     break;
@@ -110,6 +116,7 @@
                 {
                     //优惠劵
                     PrivilegeViewController * privilegeVC = [[PrivilegeViewController alloc]init];
+                    [privilegeVC setHidesBottomBarWhenPushed:YES];
                     [self.navigationController pushViewController:privilegeVC animated:YES];
                 }
                     break;
@@ -120,7 +127,27 @@
             break;
         case 1:
         {
-        
+            switch (indexPath.row)
+            {
+                case 0:
+                {
+                    //修改收货地址
+                    ShipingAddressVC * shipingAddVC = [[ShipingAddressVC alloc]init];
+                    [shipingAddVC setHidesBottomBarWhenPushed:YES];
+                    [self.navigationController pushViewController:shipingAddVC animated:YES];
+                }
+                    break;
+                case 1:
+                {
+                    //修改密码
+                    PasswordViewController * passwordVC = [[PasswordViewController alloc]init];
+                    [passwordVC setHidesBottomBarWhenPushed:YES];
+                    [self.navigationController pushViewController:passwordVC animated:YES];
+                }
+                    break;
+                default:
+                    break;
+            }
         }
             break;
         case 2:

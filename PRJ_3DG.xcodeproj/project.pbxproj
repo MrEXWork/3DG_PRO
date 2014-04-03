@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0418A42318EDA0D40021314C /* ShipingAddressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A42118EDA0D40021314C /* ShipingAddressVC.m */; };
+		0418A42418EDA0D40021314C /* ShipingAddressVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418A42218EDA0D40021314C /* ShipingAddressVC.xib */; };
+		0418A42818EDA1EA0021314C /* AddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A42618EDA1EA0021314C /* AddressCell.m */; };
+		0418A42918EDA1EA0021314C /* AddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418A42718EDA1EA0021314C /* AddressCell.xib */; };
+		0418A42E18EDAA120021314C /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A42C18EDAA120021314C /* PasswordViewController.m */; };
+		0418A42F18EDAA120021314C /* PasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418A42D18EDAA120021314C /* PasswordViewController.xib */; };
 		041BC89318ED004D00DC7835 /* DWBtnSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC89218ED004D00DC7835 /* DWBtnSelectView.m */; };
 		041BC89818ED00BB00DC7835 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC89618ED00BB00DC7835 /* SettingViewController.m */; };
 		041BC89918ED00BB00DC7835 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041BC89718ED00BB00DC7835 /* SettingViewController.xib */; };
@@ -157,6 +163,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0418A42018EDA0D40021314C /* ShipingAddressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipingAddressVC.h; sourceTree = "<group>"; };
+		0418A42118EDA0D40021314C /* ShipingAddressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipingAddressVC.m; sourceTree = "<group>"; };
+		0418A42218EDA0D40021314C /* ShipingAddressVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShipingAddressVC.xib; sourceTree = "<group>"; };
+		0418A42518EDA1EA0021314C /* AddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCell.h; sourceTree = "<group>"; };
+		0418A42618EDA1EA0021314C /* AddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCell.m; sourceTree = "<group>"; };
+		0418A42718EDA1EA0021314C /* AddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressCell.xib; sourceTree = "<group>"; };
+		0418A42B18EDAA120021314C /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		0418A42C18EDAA120021314C /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		0418A42D18EDAA120021314C /* PasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordViewController.xib; sourceTree = "<group>"; };
 		041BC89118ED004D00DC7835 /* DWBtnSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWBtnSelectView.h; sourceTree = "<group>"; };
 		041BC89218ED004D00DC7835 /* DWBtnSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWBtnSelectView.m; sourceTree = "<group>"; };
 		041BC89518ED00BB00DC7835 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
@@ -456,6 +471,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0418A42A18EDA9F70021314C /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				0418A42B18EDAA120021314C /* PasswordViewController.h */,
+				0418A42C18EDAA120021314C /* PasswordViewController.m */,
+				0418A42D18EDAA120021314C /* PasswordViewController.xib */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
 		041BC89018ED004D00DC7835 /* btnSwitch */ = {
 			isa = PBXGroup;
 			children = (
@@ -475,6 +500,7 @@
 				041BC8A518ED07B600DC7835 /* CollectVC */,
 				041BC8B618ED0F0400DC7835 /* PrivilegeVC */,
 				041BC8C218ED126700DC7835 /* ShipingAddress */,
+				0418A42A18EDA9F70021314C /* Password */,
 			);
 			path = SettingBar;
 			sourceTree = "<group>";
@@ -524,6 +550,12 @@
 		041BC8C218ED126700DC7835 /* ShipingAddress */ = {
 			isa = PBXGroup;
 			children = (
+				0418A42018EDA0D40021314C /* ShipingAddressVC.h */,
+				0418A42118EDA0D40021314C /* ShipingAddressVC.m */,
+				0418A42218EDA0D40021314C /* ShipingAddressVC.xib */,
+				0418A42518EDA1EA0021314C /* AddressCell.h */,
+				0418A42618EDA1EA0021314C /* AddressCell.m */,
+				0418A42718EDA1EA0021314C /* AddressCell.xib */,
 			);
 			path = ShipingAddress;
 			sourceTree = "<group>";
@@ -1268,7 +1300,10 @@
 				08353BF718E41E6D009DEDE1 /* refresh_arrow_up@2x.png in Resources */,
 				08353BDA18E41E1E009DEDE1 /* UMSnsAccountViewController.xib in Resources */,
 				041BC8A418ED075F00DC7835 /* OrderViewController.xib in Resources */,
+				0418A42918EDA1EA0021314C /* AddressCell.xib in Resources */,
 				08353BF618E41E6D009DEDE1 /* refresh_arrow_up.png in Resources */,
+				0418A42418EDA0D40021314C /* ShipingAddressVC.xib in Resources */,
+				0418A42F18EDAA120021314C /* PasswordViewController.xib in Resources */,
 				08353BF518E41E6D009DEDE1 /* refresh_arrow_down@2x.png in Resources */,
 				08353BDC18E41E1E009DEDE1 /* UMSocialSDKResourcesNew.bundle in Resources */,
 				041BC8A218ED075F00DC7835 /* OrderCell.xib in Resources */,
@@ -1308,6 +1343,7 @@
 				08353BF318E41E6D009DEDE1 /* MessageInterceptor.m in Sources */,
 				0847B17818E3AFFD00B5AFAC /* ASIWebPageRequest.m in Sources */,
 				0847B18018E3AFFD00B5AFAC /* ASIS3Bucket.m in Sources */,
+				0418A42318EDA0D40021314C /* ShipingAddressVC.m in Sources */,
 				08FB52D218E2EA4500D90D27 /* Base.m in Sources */,
 				041BC8A318ED075F00DC7835 /* OrderViewController.m in Sources */,
 				0847B18118E3AFFD00B5AFAC /* ASIS3BucketObject.m in Sources */,
@@ -1322,6 +1358,7 @@
 				08338CCC18E5B515002B07EA /* UITextView+utils.m in Sources */,
 				08FB52E418E2EC1600D90D27 /* BaseViewController.m in Sources */,
 				041BC8B318ED07BA00DC7835 /* StoreTableViewCell.m in Sources */,
+				0418A42818EDA1EA0021314C /* AddressCell.m in Sources */,
 				041BC8BF18ED100500DC7835 /* PrivilegeCell.m in Sources */,
 				08FB52E018E2EB0300D90D27 /* ApiNetClient.m in Sources */,
 				08338CC718E5B515002B07EA /* UIAlertView+Utility.m in Sources */,
@@ -1389,6 +1426,7 @@
 				08353C5118E4442E009DEDE1 /* FMDatabase.m in Sources */,
 				08340AB518E26B7B00149335 /* main.m in Sources */,
 				041BC89818ED00BB00DC7835 /* SettingViewController.m in Sources */,
+				0418A42E18EDAA120021314C /* PasswordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

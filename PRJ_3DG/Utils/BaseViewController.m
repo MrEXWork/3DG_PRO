@@ -25,13 +25,13 @@
     return self;
 }
 
--(void)loadView
-{
-    UIView * view = [[UIView alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    view.backgroundColor = [UIColor colorWithRed:230.0/255.0 green:230.0/255.0 blue:230.0/255.0 alpha:1.0];
-    self.view = view;
-    
-}
+//-(void)loadView
+//{
+//    UIView * view = [[UIView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+//    view.backgroundColor = [UIColor colorWithRed:230.0/255.0 green:230.0/255.0 blue:230.0/255.0 alpha:1.0];
+//    self.view = view;
+//    
+//}
 
 - (void)viewDidLoad
 {
@@ -48,8 +48,11 @@
 {
     self.navigationController.navigationBar.translucent = NO;
     
-    if (SYSTEM_VERSION_MORE_THAN(7.0)) {
+    if (SYSTEM_VERSION_MORE_THAN(7.0))
+    {
        [self setAutomaticallyAdjustsScrollViewInsets:NO];
+        
+        self.edgesForExtendedLayout = UIRectEdgeNone;
     }
     
     //设置导航栏颜色
@@ -58,11 +61,6 @@
     }
     else
         [self.navigationController.navigationBar setBarTintColor:[UIColor whiteColor]];
-//    if (SYSTEM_VERSION_MORE_THAN(7.0)) {
-//        self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.0/255.0 green:130.0/255.0 blue:250.0/255.0 alpha:1];
-//        [self.navigationController.navigationBar setBackgroundImage:[[UIImage imageNamed:@"bar_navigation_64"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 5, 0, 5)] forBarPosition:UIBarPositionTop  barMetrics:UIBarMetricsDefault];
-//    }
-
 }
 
 -(void)showActiveView:(UIView *)view

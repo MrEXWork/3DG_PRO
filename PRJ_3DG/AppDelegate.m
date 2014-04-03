@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "UIColor+utils.h"
 
+#import "SettingViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -19,11 +21,23 @@
     
     self.mainNC = [[UINavigationController alloc]init];
     self.mainTC = [[UITabBarController alloc]init];
+
     
-    NSLog(@"9090");
-    NSArray * testArr = @[@"1",@"2"];
+    //*******设置*******
+    SettingViewController * settingVC = [[SettingViewController alloc]init];
+    settingVC.title = @"设置";
+    UINavigationController * settingNavc = [[UINavigationController alloc]initWithRootViewController:settingVC];
+    UITabBarItem *itemSetting= [[UITabBarItem alloc] initWithTitle:@"设置" image:[UIImage imageNamed:@"xxx.png"]  tag:0];
+    settingNavc.tabBarItem=itemSetting;
+    
+    
+    
+    self.mainTC.viewControllers = @[settingNavc];
     
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = self.mainTC;
+    
     [self.window makeKeyAndVisible];
     
     return YES;

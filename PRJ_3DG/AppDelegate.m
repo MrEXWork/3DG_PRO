@@ -60,7 +60,7 @@
     UITabBarItem *itemSetting= [[UITabBarItem alloc] initWithTitle:@"设置" image:[UIImage imageNamed:@"nav_more_pic.png"]  tag:3];
     settingNavc.tabBarItem=itemSetting;
     
-    self.mainTC.viewControllers = @[homePageNavc,classifyNavc,shoppingCartNavc,shoppingCartNavc];
+    self.mainTC.viewControllers = @[homePageNavc,classifyNavc,shoppingCartNavc,shoppingCartNavc,settingNavc];
     
     self.window.backgroundColor = [UIColor whiteColor];
     

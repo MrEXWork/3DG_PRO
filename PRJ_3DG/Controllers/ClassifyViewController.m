@@ -98,8 +98,6 @@
     [self.navigationController pushViewController:indexViewController animated:NO];
 }
 
-
-
 #pragma mark -
 #pragma mark - ASIHTTPRequestDelegate
 

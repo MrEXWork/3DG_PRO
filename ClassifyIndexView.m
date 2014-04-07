@@ -15,7 +15,9 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-       
+        [self setScrollEnabled:YES];
+        [self setBounces:YES];
+        [self setAlwaysBounceVertical:YES];
     }
     return self;
 }

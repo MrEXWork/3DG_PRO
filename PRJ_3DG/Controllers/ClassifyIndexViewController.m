@@ -48,13 +48,15 @@
     [classifyList setBackgroundColor:[UIColor grayColor]];
     classifyList.delegate = self;
     classifyList.dataSource = self;
+    [classifyList setScrollEnabled:YES];
+    [classifyList setBounces:YES];
+    [classifyList setAlwaysBounceVertical:YES];
     [classifyList registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"Cell"];
     [self.view addSubview:classifyList];
     
 
     self.title = self.ClassTitles[0];
 }
-
 
 -(void)creatIndexList
 {

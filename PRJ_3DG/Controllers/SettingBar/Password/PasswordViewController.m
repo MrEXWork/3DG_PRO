@@ -36,8 +36,6 @@
     
     UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction:)];
     [self.view addGestureRecognizer:tap];
-    
-    NSLog(@"pull error");
 
 }
 

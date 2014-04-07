@@ -82,7 +82,6 @@
 -(void)setUpView
 {
     
-    
 }
 
 -(void)requestData

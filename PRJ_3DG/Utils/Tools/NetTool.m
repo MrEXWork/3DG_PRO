@@ -7,6 +7,7 @@
 //
 
 #import "NetTool.h"
+#import "AppDelegate.h"
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
 #import "ASIDownloadCache.h"

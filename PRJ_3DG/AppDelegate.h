@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Reachability.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -14,6 +15,7 @@
 
 @property (strong, nonatomic) UINavigationController *mainNC;
 @property (strong, nonatomic) UITabBarController *mainTC;
+@property (strong, nonatomic) Reachability *reachability;
 
 +(AppDelegate *)shareDelegate;
 

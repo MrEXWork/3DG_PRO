@@ -11,8 +11,69 @@
 #import "ASIFormDataRequest.h"
 #import "ASIDownloadCache.h"
 #import "JSONKit.h"
+#import "Reachability.h"
+#import "SVProgressHUD.h"
 
 @implementation NetTool
+
+
++ (BOOL)netWorkIsUseful
+{
+    return [ASIHTTPRequest isNetworkInUse];
+}
+
++ (void)checkNetworkChange
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(addNetworkCheack:) name:UIApplicationDidBecomeActiveNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(removeNetworkCheack:) name:UIApplicationDidEnterBackgroundNotification object:nil];
+}
+
++ (void)addNetworkCheack:(NSNotification *)notification
+{
+    // 监测网络状态变化监控
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
+    [AppDelegate shareDelegate].reachability = [Reachability reachabilityForInternetConnection];
+	// 监测网络状态变化监控启动
+	[[AppDelegate shareDelegate].reachability startNotifier];
+}
+
++ (void)removeNetworkCheack:(NSNotification *)notification
+{
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
+}
+
+#pragma mark -- 回调网络状态方法
++ (void)reachabilityChanged:(id)sender
+{
+	// 检测网络是否存在
+	Reachability	*r = [Reachability reachabilityForInternetConnection];
+    
+	switch ([r currentReachabilityStatus]) {
+		case NotReachable:
+        {
+            [SVProgressHUD showErrorWithStatus:@"网络断开"];
+            break;
+        }
+            
+		case ReachableViaWWAN:
+        {
+            [SVProgressHUD showSuccessWithStatus:@"3G网络开启"];
+            break;
+        }
+            
+		case ReachableViaWiFi:
+        {
+            [SVProgressHUD showSuccessWithStatus:@"wifi网络开启"];
+            break;
+        }
+	}
+}
+
++ (void)handleAsiHttpNetworkError:(NSError *)error
+{
+    [SVProgressHUD showErrorWithStatus:error.description];
+}
+
 
 + (void)httpGetRequest:(NSString *)url WithSuccess:(void (^)(Response *))success failure:(void (^)(NSError *))failure
 {

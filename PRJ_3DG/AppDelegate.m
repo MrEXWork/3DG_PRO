@@ -24,6 +24,8 @@
     //配置视图
     [self setupView];
     
+    //
+    
     [self.window makeKeyAndVisible];
     
     return YES;
@@ -65,6 +67,11 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     self.window.rootViewController = self.mainTC;
+}
+
++(AppDelegate *)shareDelegate
+{
+    return (AppDelegate *)[UIApplication sharedApplication].delegate;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

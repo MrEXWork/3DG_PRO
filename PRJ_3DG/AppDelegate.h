@@ -15,4 +15,6 @@
 @property (strong, nonatomic) UINavigationController *mainNC;
 @property (strong, nonatomic) UITabBarController *mainTC;
 
++(AppDelegate *)shareDelegate;
+
 @end

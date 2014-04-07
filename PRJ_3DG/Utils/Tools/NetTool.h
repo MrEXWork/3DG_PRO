@@ -12,6 +12,25 @@
 @interface NetTool : NSObject
 
 /**
+ *	启动实时的网络状态监控
+ */
++ (void)checkNetworkChange;
+
+/**
+ *	网络是否可用
+ *
+ *	@return	yes为 可用  no 为不可用
+ */
++ (BOOL)netWorkIsUseful;
+
+/**
+ *	捕获网络异常
+ *
+ *	@param	error	网络异常错误
+ */
++ (void)handleAsiHttpNetworkError:(NSError *)error;
+
+/**
  ?apiver=10200&category=weibo_jokes
  @param ?param1= && param2=
  */

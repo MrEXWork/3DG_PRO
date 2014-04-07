@@ -156,6 +156,9 @@
 		08FB52E018E2EB0300D90D27 /* ApiNetClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB52DD18E2EB0300D90D27 /* ApiNetClient.m */; };
 		08FB52E418E2EC1600D90D27 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB52E318E2EC1600D90D27 /* BaseViewController.m */; };
 		08FB52E918E2ECF000D90D27 /* UIDevice+MKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB52E818E2ECF000D90D27 /* UIDevice+MKAdditions.m */; };
+		3A2476BD18F1410A00DFB821 /* ClassifyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2476BC18F1410A00DFB821 /* ClassifyCell.m */; };
+		3A2476C018F14A7A00DFB821 /* ClassifyIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2476BF18F14A7A00DFB821 /* ClassifyIndexViewController.m */; };
+		3A2476C918F14C1900DFB821 /* ClassifyIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2476C818F14C1900DFB821 /* ClassifyIndexView.m */; };
 		3A4D3C0B18EB198D00B01C5A /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D3C0A18EB198D00B01C5A /* MyAccountViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -443,6 +446,12 @@
 		08FB52E518E2ECC800D90D27 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		08FB52E718E2ECF000D90D27 /* UIDevice+MKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+MKAdditions.h"; sourceTree = "<group>"; };
 		08FB52E818E2ECF000D90D27 /* UIDevice+MKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+MKAdditions.m"; sourceTree = "<group>"; };
+		3A2476BB18F1410A00DFB821 /* ClassifyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyCell.h; sourceTree = SOURCE_ROOT; };
+		3A2476BC18F1410A00DFB821 /* ClassifyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyCell.m; sourceTree = SOURCE_ROOT; };
+		3A2476BE18F14A7A00DFB821 /* ClassifyIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyIndexViewController.h; sourceTree = "<group>"; };
+		3A2476BF18F14A7A00DFB821 /* ClassifyIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyIndexViewController.m; sourceTree = "<group>"; };
+		3A2476C718F14C1900DFB821 /* ClassifyIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyIndexView.h; sourceTree = SOURCE_ROOT; };
+		3A2476C818F14C1900DFB821 /* ClassifyIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyIndexView.m; sourceTree = SOURCE_ROOT; };
 		3A4D3C0918EB198D00B01C5A /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
 		3A4D3C0A18EB198D00B01C5A /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1058,6 +1067,8 @@
 			children = (
 				08B9005018EF10DB008C0A4B /* ClassifyViewController.h */,
 				08B9005118EF10DB008C0A4B /* ClassifyViewController.m */,
+				3A2476BE18F14A7A00DFB821 /* ClassifyIndexViewController.h */,
+				3A2476BF18F14A7A00DFB821 /* ClassifyIndexViewController.m */,
 			);
 			name = Classify;
 			sourceTree = "<group>";
@@ -1213,6 +1224,7 @@
 		08FB52DF18E2EB0300D90D27 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3A2476BA18F140C200DFB821 /* Classify */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1244,6 +1256,17 @@
 				08FB52E818E2ECF000D90D27 /* UIDevice+MKAdditions.m */,
 			);
 			path = UIDeviceAdditions;
+			sourceTree = "<group>";
+		};
+		3A2476BA18F140C200DFB821 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				3A2476BB18F1410A00DFB821 /* ClassifyCell.h */,
+				3A2476BC18F1410A00DFB821 /* ClassifyCell.m */,
+				3A2476C718F14C1900DFB821 /* ClassifyIndexView.h */,
+				3A2476C818F14C1900DFB821 /* ClassifyIndexView.m */,
+			);
+			name = Classify;
 			sourceTree = "<group>";
 		};
 		3A4D3C0818EB190C00B01C5A /* MyAccount */ = {
@@ -1408,9 +1431,11 @@
 				041BC8BF18ED100500DC7835 /* PrivilegeCell.m in Sources */,
 				08FB52E018E2EB0300D90D27 /* ApiNetClient.m in Sources */,
 				08338CC718E5B515002B07EA /* UIAlertView+Utility.m in Sources */,
+				3A2476BD18F1410A00DFB821 /* ClassifyCell.m in Sources */,
 				08338CCB18E5B515002B07EA /* UILabel+utils.m in Sources */,
 				0847B17018E3AFFD00B5AFAC /* ASIAuthenticationDialog.m in Sources */,
 				08353B8E18E41DEE009DEDE1 /* SDWebImageDecoder.m in Sources */,
+				3A2476C018F14A7A00DFB821 /* ClassifyIndexViewController.m in Sources */,
 				0847B17F18E3AFFD00B5AFAC /* ASICloudFilesRequest.m in Sources */,
 				041BC89318ED004D00DC7835 /* DWBtnSelectView.m in Sources */,
 				08353B9118E41DEE009DEDE1 /* SDWebImageManager.m in Sources */,
@@ -1427,6 +1452,7 @@
 				08353C6218E46B8C009DEDE1 /* MBProgressHUD+Add.m in Sources */,
 				08338CCA18E5B515002B07EA /* UIAlertView+utils.m in Sources */,
 				08353B8C18E41DEE009DEDE1 /* SDImageCache.m in Sources */,
+				3A2476C918F14C1900DFB821 /* ClassifyIndexView.m in Sources */,
 				08353B8A18E41DEE009DEDE1 /* MKAnnotationView+WebCache.m in Sources */,
 				08353B9018E41DEE009DEDE1 /* SDWebImageDownloaderOperation.m in Sources */,
 				08353B6718E41DDC009DEDE1 /* AsyncSocket.m in Sources */,

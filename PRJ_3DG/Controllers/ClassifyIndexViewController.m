@@ -53,6 +53,9 @@
     [classifyList setAlwaysBounceVertical:YES];
     [classifyList registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"Cell"];
     [self.view addSubview:classifyList];
+    
+
+    self.title = self.ClassTitles[0];
 }
 
 -(void)creatIndexList
@@ -77,7 +80,8 @@
 
 -(void)indexButtonAction:(int)tag
 {
-    
+    int x = tag - 100;
+    self.title = self.ClassTitles[x];
 }
 
 #pragma mark -

@@ -94,6 +94,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
     ClassifyIndexViewController * indexViewController = [[ClassifyIndexViewController alloc] init];
     [self.navigationController pushViewController:indexViewController animated:NO];
 }

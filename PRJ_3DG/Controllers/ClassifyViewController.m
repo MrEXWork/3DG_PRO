@@ -40,7 +40,7 @@
     }
     self.title = @"商品类目";
     
-    PullingRefreshTableView * classifyList = [[PullingRefreshTableView alloc]initWithFrame:CGRectMake(0, 0, kDeviceWidth, kDeviceHeight) pullingDelegate:self];
+    PullingRefreshTableView * classifyList = [[PullingRefreshTableView alloc]initWithFrame:CGRectMake(0, 0, kDeviceWidth, kDeviceHeight-88) pullingDelegate:self];
     classifyList.delegate = self;
     classifyList.dataSource = self;
     [self.view addSubview:classifyList];

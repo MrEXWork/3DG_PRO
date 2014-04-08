@@ -55,10 +55,22 @@
 
 -(void)loadingData
 {
-    NSURL * url = [NSURL URLWithString:@""];
-    ASIHTTPRequest * request = [ASIHTTPRequest requestWithURL:url];
-    [request setDelegate:self];
-    [request startAsynchronous];
+    NSMutableDictionary * param = [[NSMutableDictionary alloc] init];
+    [NetTool httpPostRequest:@"" WithFormdata:param WithSuccess:^(Response *response) {
+//        @property (assign, nonatomic) kEnumRequestState flag;//200
+//        @property (copy, nonatomic) NSString *result;//{"":"",} //""
+//        @property (copy, nonatomic) NSString *msg;
+//        JSONDecoder * jd = [[JSONDecoder alloc] init];
+//        NSDictionary * ret = [jd objectWithData:responseData];
+        if(self.datas)
+        {
+            self.datas = nil;
+        }
+        self.datas = response.result;
+  
+    } failure:^(NSError *error) {
+        NSLog(@"%@",error);
+    }];
 }
 
 
@@ -99,25 +111,7 @@
     [self.navigationController pushViewController:indexViewController animated:NO];
 }
 
-#pragma mark -
-#pragma mark - ASIHTTPRequestDelegate
 
--(void)requestFinished:(ASIHTTPRequest *)request
-{
-    NSData * responseData = [request responseData];
-    JSONDecoder * jd = [[JSONDecoder alloc] init];
-    NSDictionary * ret = [jd objectWithData:responseData];
-    if(self.datas)
-    {
-        self.datas = nil;
-    }
-    self.datas = [ret objectForKey:@""];
-}
-
--(void)requestFailed:(ASIHTTPRequest *)request
-{
-    NSLog(@"error");
-}
 
 /*
 #pragma mark - Navigation

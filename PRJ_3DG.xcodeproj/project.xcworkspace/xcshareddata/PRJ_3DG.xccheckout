@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>730ECAEF-B469-4D23-9285-AFC171B3A940</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PRJ_3DG</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>38B5D84E-F1AC-4157-A484-753853745959</key>
+		<string>https://github.com/MrEXWork/3DG_PRO.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PRJ_3DG.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>38B5D84E-F1AC-4157-A484-753853745959</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MrEXWork/3DG_PRO.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>38B5D84E-F1AC-4157-A484-753853745959</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>38B5D84E-F1AC-4157-A484-753853745959</string>
+			<key>IDESourceControlWCCName</key>
+			<string>3DG_PRO</string>
+		</dict>
+	</array>
+</dict>
+</plist>

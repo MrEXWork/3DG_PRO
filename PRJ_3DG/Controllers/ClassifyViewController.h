@@ -7,7 +7,11 @@
 //
 
 #import "BaseViewController.h"
+#import "PullingRefreshTableView.h"
+#import "ASIHTTPRequest.h"
 
-@interface ClassifyViewController : BaseViewController
+@interface ClassifyViewController : BaseViewController<PullingRefreshTableViewDelegate,UITableViewDataSource,UITableViewDelegate,ASIHTTPRequestDelegate>
+
+@property (strong, nonatomic) NSMutableArray * datas;
 
 @end

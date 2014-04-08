@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "UIColor+utils.h"
 
+#import "HomePageViewController.h"
+#import "ClassifyViewController.h"
+#import "ShoppingCartViewController.h"
 #import "SettingViewController.h"
 
 @implementation AppDelegate
@@ -17,30 +20,61 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-//    NSDictionary
     
-    self.mainNC = [[UINavigationController alloc]init];
-    self.mainTC = [[UITabBarController alloc]init];
+    //配置视图
+    [self setupView];
+    
+    
+    
+    //
+    [self.window makeKeyAndVisible];
+    
+    NSLog(@"WWWW");
+    
+    return YES;
+}
 
+//配置视图
+- (void)setupView
+{
+    self.mainTC = [[UITabBarController alloc]init];
+    self.mainNC = [[UINavigationController alloc]initWithRootViewController:self.mainNC];
+    
+    HomePageViewController * homePageVC = [[HomePageViewController alloc]init];
+    homePageVC.title = @"3DG";
+    UINavigationController * homePageNavc = [[UINavigationController alloc]initWithRootViewController:homePageVC];
+    UITabBarItem *itemHomePage= [[UITabBarItem alloc] initWithTitle:@"首页" image:[UIImage imageNamed:@"nav_index_pic.png"]  tag:0];
+    homePageNavc.tabBarItem=itemHomePage;
+    
+    ClassifyViewController * classifyVC = [[ClassifyViewController alloc]init];
+    classifyVC.title = @"商品类目";
+    UINavigationController * classifyNavc = [[UINavigationController alloc]initWithRootViewController:classifyVC];
+    UITabBarItem *itemClassify= [[UITabBarItem alloc] initWithTitle:@"分类" image:[UIImage imageNamed:@"nav_classify_pic.png"]  tag:1];
+    classifyNavc.tabBarItem=itemClassify;
+    
+    ShoppingCartViewController * shoppingCartVC = [[ShoppingCartViewController alloc]init];
+    shoppingCartVC.title = @"购物车";
+    UINavigationController * shoppingCartNavc = [[UINavigationController alloc]initWithRootViewController:shoppingCartVC];
+    UITabBarItem *itemShoppingCart= [[UITabBarItem alloc] initWithTitle:@"购物车" image:[UIImage imageNamed:@"nav_shop_pic.png"]  tag:2];
+    shoppingCartNavc.tabBarItem=itemShoppingCart;
     
     //*******设置*******
     SettingViewController * settingVC = [[SettingViewController alloc]init];
     settingVC.title = @"设置";
     UINavigationController * settingNavc = [[UINavigationController alloc]initWithRootViewController:settingVC];
-    UITabBarItem *itemSetting= [[UITabBarItem alloc] initWithTitle:@"设置" image:[UIImage imageNamed:@"xxx.png"]  tag:0];
+    UITabBarItem *itemSetting= [[UITabBarItem alloc] initWithTitle:@"设置" image:[UIImage imageNamed:@"nav_more_pic.png"]  tag:3];
     settingNavc.tabBarItem=itemSetting;
     
-    
-    
-    self.mainTC.viewControllers = @[settingNavc];
+    self.mainTC.viewControllers = @[homePageNavc,classifyNavc,shoppingCartNavc,shoppingCartNavc,settingNavc];
     
     self.window.backgroundColor = [UIColor whiteColor];
     
     self.window.rootViewController = self.mainTC;
-    
-    [self.window makeKeyAndVisible];
-    
-    return YES;
+}
+
++(AppDelegate *)shareDelegate
+{
+    return (AppDelegate *)[UIApplication sharedApplication].delegate;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

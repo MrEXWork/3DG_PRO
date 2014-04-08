@@ -33,6 +33,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     [self creatIndexList];
     
     UIImageView * arrowImageView = [[UIImageView alloc] initWithFrame:CGRectMake(70, 5, 20, 20)];

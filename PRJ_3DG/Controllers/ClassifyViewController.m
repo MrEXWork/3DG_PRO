@@ -44,6 +44,8 @@
     classifyList.delegate = self;
     classifyList.dataSource = self;
     [self.view addSubview:classifyList];
+    
+    [self.view setBackgroundColor:[UIColor whiteColor]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -66,7 +68,7 @@
         {
             self.datas = nil;
         }
-        self.datas = response.result;
+//        self.datas = response.result;
   
     } failure:^(NSError *error) {
         NSLog(@"%@",error);
@@ -108,20 +110,11 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     ClassifyIndexViewController * indexViewController = [[ClassifyIndexViewController alloc] init];
-    [self.navigationController pushViewController:indexViewController animated:NO];
+    [self.navigationController pushViewController:indexViewController animated:YES];
 }
 
 
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

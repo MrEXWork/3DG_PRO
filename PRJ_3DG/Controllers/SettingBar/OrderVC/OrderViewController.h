@@ -12,6 +12,6 @@
 @interface OrderViewController : BaseViewController<UITableViewDataSource,UITableViewDelegate>
 
 
-@property (weak, nonatomic) IBOutlet UITableView *tableVOrder;
+@property (retain, nonatomic) UITableView *tableVOrder;
 
 @end

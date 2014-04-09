@@ -166,6 +166,10 @@
 		3A2476C018F14A7A00DFB821 /* ClassifyIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2476BF18F14A7A00DFB821 /* ClassifyIndexViewController.m */; };
 		3A2476C918F14C1900DFB821 /* ClassifyIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2476C818F14C1900DFB821 /* ClassifyIndexView.m */; };
 		3A4D3C0B18EB198D00B01C5A /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D3C0A18EB198D00B01C5A /* MyAccountViewController.m */; };
+		3A83005218F4D83D0018946F /* GoodDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83005118F4D83D0018946F /* GoodDetailsViewController.m */; };
+		3A83005518F4DB880018946F /* IntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83005418F4DB880018946F /* IntroductionView.m */; };
+		3A83005818F4DB9D0018946F /* DetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83005718F4DB9D0018946F /* DetailsView.m */; };
+		3A83005B18F4DBAE0018946F /* EvaluationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83005A18F4DBAE0018946F /* EvaluationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -469,6 +473,14 @@
 		3A2476C818F14C1900DFB821 /* ClassifyIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyIndexView.m; sourceTree = SOURCE_ROOT; };
 		3A4D3C0918EB198D00B01C5A /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
 		3A4D3C0A18EB198D00B01C5A /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
+		3A83005018F4D83D0018946F /* GoodDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodDetailsViewController.h; sourceTree = "<group>"; };
+		3A83005118F4D83D0018946F /* GoodDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodDetailsViewController.m; sourceTree = "<group>"; };
+		3A83005318F4DB880018946F /* IntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductionView.h; sourceTree = SOURCE_ROOT; };
+		3A83005418F4DB880018946F /* IntroductionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionView.m; sourceTree = SOURCE_ROOT; };
+		3A83005618F4DB9D0018946F /* DetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsView.h; sourceTree = SOURCE_ROOT; };
+		3A83005718F4DB9D0018946F /* DetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsView.m; sourceTree = SOURCE_ROOT; };
+		3A83005918F4DBAE0018946F /* EvaluationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaluationView.h; sourceTree = SOURCE_ROOT; };
+		3A83005A18F4DBAE0018946F /* EvaluationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluationView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1086,6 +1098,8 @@
 				3A2476BF18F14A7A00DFB821 /* ClassifyIndexViewController.m */,
 				3A19160C18F420FD00C4C7F0 /* SpecificViewController.h */,
 				3A19160D18F420FD00C4C7F0 /* SpecificViewController.m */,
+				3A83005018F4D83D0018946F /* GoodDetailsViewController.h */,
+				3A83005118F4D83D0018946F /* GoodDetailsViewController.m */,
 			);
 			name = Classify;
 			sourceTree = "<group>";
@@ -1289,6 +1303,12 @@
 				3A19161018F4274700C4C7F0 /* SpecificCell.m */,
 				3A19161818F4388A00C4C7F0 /* ListScrollView.h */,
 				3A19161918F4388A00C4C7F0 /* ListScrollView.m */,
+				3A83005318F4DB880018946F /* IntroductionView.h */,
+				3A83005418F4DB880018946F /* IntroductionView.m */,
+				3A83005618F4DB9D0018946F /* DetailsView.h */,
+				3A83005718F4DB9D0018946F /* DetailsView.m */,
+				3A83005918F4DBAE0018946F /* EvaluationView.h */,
+				3A83005A18F4DBAE0018946F /* EvaluationView.m */,
 			);
 			name = Classify;
 			sourceTree = "<group>";
@@ -1475,6 +1495,7 @@
 				08353B9418E41DEE009DEDE1 /* UIImage+GIF.m in Sources */,
 				08353C5B18E44446009DEDE1 /* SVProgressHUD.m in Sources */,
 				0847B18218E3AFFD00B5AFAC /* ASIS3BucketRequest.m in Sources */,
+				3A83005B18F4DBAE0018946F /* EvaluationView.m in Sources */,
 				08340AB918E26B7B00149335 /* AppDelegate.m in Sources */,
 				08353C6218E46B8C009DEDE1 /* MBProgressHUD+Add.m in Sources */,
 				08338CCA18E5B515002B07EA /* UIAlertView+utils.m in Sources */,
@@ -1489,6 +1510,7 @@
 				041BC8AF18ED07BA00DC7835 /* CollectMerchandiseCell.m in Sources */,
 				041BC8BA18ED0F3B00DC7835 /* PrivilegeViewController.m in Sources */,
 				08338CC918E5B515002B07EA /* UIColor+utils.m in Sources */,
+				3A83005218F4D83D0018946F /* GoodDetailsViewController.m in Sources */,
 				08338CC618E5B515002B07EA /* UINavigationController+Rotation_IOS6.m in Sources */,
 				3A4D3C0B18EB198D00B01C5A /* MyAccountViewController.m in Sources */,
 				0847B17918E3AFFD00B5AFAC /* ASICloudFilesCDNRequest.m in Sources */,
@@ -1510,6 +1532,7 @@
 				0847B17E18E3AFFD00B5AFAC /* ASICloudFilesObjectRequest.m in Sources */,
 				0847B18318E3AFFD00B5AFAC /* ASIS3ObjectRequest.m in Sources */,
 				041BC8A118ED075F00DC7835 /* OrderCell.m in Sources */,
+				3A83005818F4DB9D0018946F /* DetailsView.m in Sources */,
 				08353B9218E41DEE009DEDE1 /* SDWebImagePrefetcher.m in Sources */,
 				041BC8B118ED07BA00DC7835 /* CollectViewController.m in Sources */,
 				08353B9518E41DEE009DEDE1 /* UIImage+MultiFormat.m in Sources */,
@@ -1522,6 +1545,7 @@
 				08353B8B18E41DEE009DEDE1 /* NSData+GIF.m in Sources */,
 				08353BF218E41E6D009DEDE1 /* LoadMoreTableFooterView.m in Sources */,
 				0847B18518E3AFFD00B5AFAC /* ASIS3ServiceRequest.m in Sources */,
+				3A83005518F4DB880018946F /* IntroductionView.m in Sources */,
 				08338CD618E5B536002B07EA /* UIImage+Blur.m in Sources */,
 				3A19160E18F420FD00C4C7F0 /* SpecificViewController.m in Sources */,
 				08353B6B18E41DE6009DEDE1 /* SSKeychain.m in Sources */,

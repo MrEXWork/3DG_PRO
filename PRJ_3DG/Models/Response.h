@@ -16,10 +16,10 @@ typedef enum
 @interface Response : NSObject
 
 @property (assign, nonatomic) kEnumRequestState flag;//200
-@property (copy, nonatomic) NSString *result;//{"":"",} //""
+@property (copy, nonatomic) NSObject *result;//{"":"",} //""
 @property (copy, nonatomic) NSString *msg;
 
 - (id)initWithDictional:(NSDictionary *)dic;
-- (id)initWithFlag:(kEnumRequestState)flag result:(NSString *)result msg:(NSString *)msg;
+- (id)initWithFlag:(kEnumRequestState)flag result:(NSObject *)result msg:(NSString *)msg;
 
 @end

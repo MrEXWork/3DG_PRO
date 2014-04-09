@@ -13,7 +13,7 @@
 -(id)initWithDictional:(NSDictionary *)dic
 {
     kEnumRequestState flag = kEnumRequestStateSuccess;
-    NSString *reslut = @"";
+    NSObject *reslut = nil;
     NSString *msg = @"";
     if ([dic valueForKey:@"flag"]) {
         int f = [[dic valueForKey:@"flag"]intValue];
@@ -28,13 +28,13 @@
         }
     }
     
-    reslut = [dic valueForKey:@"reslut"];
+    reslut = [dic objectForKey:@"reslut"];
     msg = [dic valueForKey:@"msg"];
 
     return [self initWithFlag:flag result:reslut msg:msg];
 }
 
--(id)initWithFlag:(kEnumRequestState)flag result:(NSString *)result msg:(NSString *)msg
+-(id)initWithFlag:(kEnumRequestState)flag result:(NSObject *)result msg:(NSString *)msg
 {
     self = [super init];
     if (self) {

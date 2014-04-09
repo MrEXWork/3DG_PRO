@@ -37,15 +37,16 @@ typedef enum {
 @protocol PullingRefreshTableViewDelegate;
 
 @interface PullingRefreshTableView : UITableView <UIScrollViewDelegate>{
+    
     PullLoadingView *_headerView;
     PullLoadingView *_footerView;
     UILabel *_msgLabel;
     BOOL _loading;
     BOOL _isFooterInAction;
     NSInteger _bottomRow;
-    
     // For intercepting the scrollView delegate messages.
     MessageInterceptor * delegateInterceptor;
+
 }
 @property (assign,nonatomic) id <PullingRefreshTableViewDelegate> pullingDelegate;
 @property (nonatomic) BOOL autoScrollToNextPage;

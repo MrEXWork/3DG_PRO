@@ -13,5 +13,6 @@
 
 @property (strong, nonatomic) NSMutableArray * ClassTitles;
 @property (strong, nonatomic) NSMutableArray * contentDatas;
-
+@property (strong, nonatomic) UIImageView * arrow;
+@property (assign, nonatomic) int nowIndex;
 @end

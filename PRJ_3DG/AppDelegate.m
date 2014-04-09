@@ -29,7 +29,6 @@
     //
     [self.window makeKeyAndVisible];
     
-    NSLog(@"WWWW");
     
     return YES;
 }

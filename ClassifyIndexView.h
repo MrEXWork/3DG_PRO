@@ -19,7 +19,7 @@
 @interface ClassifyIndexView : UIScrollView
 
 @property (strong, nonatomic) NSArray * titles;
-@property (weak, nonatomic) id<ClassifyIndexButtonAction>delegate;
+@property (weak, nonatomic) id<ClassifyIndexButtonAction>Buttondelegate;
 
 -(void)creatButtons;
 

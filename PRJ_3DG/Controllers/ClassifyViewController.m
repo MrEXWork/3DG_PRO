@@ -37,10 +37,12 @@
 
     self.title = @"商品类目";
     
-    PullingRefreshTableView * classifyList = [[PullingRefreshTableView alloc]initWithFrame:CGRectMake(0, 0, kDeviceWidth, kDeviceHeight) pullingDelegate:self];
+    PullingRefreshTableView * classifyList = [[PullingRefreshTableView alloc]initWithFrame:CGRectMake(0, 0, kDeviceWidth, kDeviceHeight-88) pullingDelegate:self];
     classifyList.delegate = self;
     classifyList.dataSource = self;
     [self.view addSubview:classifyList];
+    
+    [self.view setBackgroundColor:[UIColor whiteColor]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,10 +54,22 @@
 
 -(void)loadingData
 {
-    NSURL * url = [NSURL URLWithString:@""];
-    ASIHTTPRequest * request = [ASIHTTPRequest requestWithURL:url];
-    [request setDelegate:self];
-    [request startAsynchronous];
+    NSMutableDictionary * param = [[NSMutableDictionary alloc] init];
+    [NetTool httpPostRequest:@"" WithFormdata:param WithSuccess:^(Response *response) {
+//        @property (assign, nonatomic) kEnumRequestState flag;//200
+//        @property (copy, nonatomic) NSString *result;//{"":"",} //""
+//        @property (copy, nonatomic) NSString *msg;
+//        JSONDecoder * jd = [[JSONDecoder alloc] init];
+//        NSDictionary * ret = [jd objectWithData:responseData];
+        if(self.datas)
+        {
+            self.datas = nil;
+        }
+//        self.datas = response.result;
+  
+    } failure:^(NSError *error) {
+        NSLog(@"%@",error);
+    }];
 }
 
 
@@ -93,38 +107,11 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     ClassifyIndexViewController * indexViewController = [[ClassifyIndexViewController alloc] init];
-    [self.navigationController pushViewController:indexViewController animated:NO];
+    [self.navigationController pushViewController:indexViewController animated:YES];
 }
 
-#pragma mark -
-#pragma mark - ASIHTTPRequestDelegate
 
--(void)requestFinished:(ASIHTTPRequest *)request
-{
-    NSData * responseData = [request responseData];
-    JSONDecoder * jd = [[JSONDecoder alloc] init];
-    NSDictionary * ret = [jd objectWithData:responseData];
-    if(self.datas)
-    {
-        self.datas = nil;
-    }
-    self.datas = [ret objectForKey:@""];
-}
 
--(void)requestFailed:(ASIHTTPRequest *)request
-{
-    NSLog(@"error");
-}
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

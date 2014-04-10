@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0403EBC518F58C40004A36BF /* ClassifyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBBC18F58C40004A36BF /* ClassifyCell.m */; };
+		0403EBC618F58C40004A36BF /* ClassifyIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBBE18F58C40004A36BF /* ClassifyIndexView.m */; };
+		0403EBC718F58C40004A36BF /* ListScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBC018F58C40004A36BF /* ListScrollView.m */; };
+		0403EBC818F58C40004A36BF /* SpecificCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBC218F58C40004A36BF /* SpecificCell.m */; };
+		0403EBCB18F58C9C004A36BF /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBCA18F58C9C004A36BF /* CycleScrollView.m */; };
+		0403EBCE18F58CA4004A36BF /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBCD18F58CA4004A36BF /* NSTimer+Addition.m */; };
 		0418A42318EDA0D40021314C /* ShipingAddressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A42118EDA0D40021314C /* ShipingAddressVC.m */; };
 		0418A42818EDA1EA0021314C /* AddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A42618EDA1EA0021314C /* AddressCell.m */; };
 		0418A42918EDA1EA0021314C /* AddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418A42718EDA1EA0021314C /* AddressCell.xib */; };
@@ -181,6 +187,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0403EBBB18F58C40004A36BF /* ClassifyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyCell.h; sourceTree = "<group>"; };
+		0403EBBC18F58C40004A36BF /* ClassifyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyCell.m; sourceTree = "<group>"; };
+		0403EBBD18F58C40004A36BF /* ClassifyIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyIndexView.h; sourceTree = "<group>"; };
+		0403EBBE18F58C40004A36BF /* ClassifyIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyIndexView.m; sourceTree = "<group>"; };
+		0403EBBF18F58C40004A36BF /* ListScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListScrollView.h; sourceTree = "<group>"; };
+		0403EBC018F58C40004A36BF /* ListScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListScrollView.m; sourceTree = "<group>"; };
+		0403EBC118F58C40004A36BF /* SpecificCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecificCell.h; sourceTree = "<group>"; };
+		0403EBC218F58C40004A36BF /* SpecificCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecificCell.m; sourceTree = "<group>"; };
+		0403EBC918F58C9C004A36BF /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
+		0403EBCA18F58C9C004A36BF /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		0403EBCC18F58CA4004A36BF /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		0403EBCD18F58CA4004A36BF /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
 		0418A42018EDA0D40021314C /* ShipingAddressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipingAddressVC.h; sourceTree = "<group>"; };
 		0418A42118EDA0D40021314C /* ShipingAddressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipingAddressVC.m; sourceTree = "<group>"; };
 		0418A42518EDA1EA0021314C /* AddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCell.h; sourceTree = "<group>"; };
@@ -521,6 +539,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0403EBB918F58C40004A36BF /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0403EBBA18F58C40004A36BF /* Classify */,
+				0403EBC318F58C40004A36BF /* homePage */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		0403EBBA18F58C40004A36BF /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				0403EBBB18F58C40004A36BF /* ClassifyCell.h */,
+				0403EBBC18F58C40004A36BF /* ClassifyCell.m */,
+				0403EBBD18F58C40004A36BF /* ClassifyIndexView.h */,
+				0403EBBE18F58C40004A36BF /* ClassifyIndexView.m */,
+				0403EBBF18F58C40004A36BF /* ListScrollView.h */,
+				0403EBC018F58C40004A36BF /* ListScrollView.m */,
+				0403EBC118F58C40004A36BF /* SpecificCell.h */,
+				0403EBC218F58C40004A36BF /* SpecificCell.m */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		0403EBC318F58C40004A36BF /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				0403EBC418F58C40004A36BF /* scrollv */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		0403EBC418F58C40004A36BF /* scrollv */ = {
+			isa = PBXGroup;
+			children = (
+				0403EBCC18F58CA4004A36BF /* NSTimer+Addition.h */,
+				0403EBCD18F58CA4004A36BF /* NSTimer+Addition.m */,
+				0403EBC918F58C9C004A36BF /* CycleScrollView.h */,
+				0403EBCA18F58C9C004A36BF /* CycleScrollView.m */,
+			);
+			path = scrollv;
+			sourceTree = "<group>";
+		};
 		0418A42A18EDA9F70021314C /* Password */ = {
 			isa = PBXGroup;
 			children = (
@@ -670,6 +731,7 @@
 				08FB52CA18E2EA4500D90D27 /* Utils */,
 				08FB52BD18E2EA4500D90D27 /* Controllers */,
 				08FB52DB18E2EB0300D90D27 /* Api */,
+				0403EBB918F58C40004A36BF /* views */,
 				08FB52BE18E2EA4500D90D27 /* DataAccess */,
 				08FB52BF18E2EA4500D90D27 /* Models */,
 				08FB52C718E2EA4500D90D27 /* Resource */,
@@ -1458,6 +1520,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08338CD818E5B536002B07EA /* UIImage+Screenshot.m in Sources */,
+				0403EBC518F58C40004A36BF /* ClassifyCell.m in Sources */,
 				0847B17118E3AFFD00B5AFAC /* ASIDataCompressor.m in Sources */,
 				0847B18418E3AFFD00B5AFAC /* ASIS3Request.m in Sources */,
 				08353BF318E41E6D009DEDE1 /* MessageInterceptor.m in Sources */,
@@ -1509,6 +1572,7 @@
 				08353B6718E41DDC009DEDE1 /* AsyncSocket.m in Sources */,
 				08353BA118E41E05009DEDE1 /* CheckNetwork.m in Sources */,
 				08BEEF4618EB18900083F619 /* ShoppingCartViewController.m in Sources */,
+				0403EBC818F58C40004A36BF /* SpecificCell.m in Sources */,
 				041BC8AF18ED07BA00DC7835 /* CollectMerchandiseCell.m in Sources */,
 				3A1752BD18F67DA300FDE8B9 /* SpecificCell.m in Sources */,
 				041BC8BA18ED0F3B00DC7835 /* PrivilegeViewController.m in Sources */,
@@ -1517,13 +1581,16 @@
 				08338CC618E5B515002B07EA /* UINavigationController+Rotation_IOS6.m in Sources */,
 				3A4D3C0B18EB198D00B01C5A /* MyAccountViewController.m in Sources */,
 				0847B17918E3AFFD00B5AFAC /* ASICloudFilesCDNRequest.m in Sources */,
+				0403EBCE18F58CA4004A36BF /* NSTimer+Addition.m in Sources */,
 				08353B9718E41DEE009DEDE1 /* UIImageView+WebCache.m in Sources */,
 				08353B9318E41DEE009DEDE1 /* UIButton+WebCache.m in Sources */,
 				3A1752B818F67DA300FDE8B9 /* ClassifyIndexView.m in Sources */,
 				08FB52D418E2EA4500D90D27 /* User.m in Sources */,
 				08353C5518E4442E009DEDE1 /* FMResultSet.m in Sources */,
 				08353B8F18E41DEE009DEDE1 /* SDWebImageDownloader.m in Sources */,
+				0403EBCB18F58C9C004A36BF /* CycleScrollView.m in Sources */,
 				0847B17C18E3AFFD00B5AFAC /* ASICloudFilesContainerXMLParserDelegate.m in Sources */,
+				0403EBC618F58C40004A36BF /* ClassifyIndexView.m in Sources */,
 				08338CDB18E5B55E002B07EA /* UmengUtil.m in Sources */,
 				0847B17218E3AFFD00B5AFAC /* ASIDataDecompressor.m in Sources */,
 				0847B18818E3B60600B5AFAC /* NetTool.m in Sources */,
@@ -1553,6 +1620,7 @@
 				08353B6B18E41DE6009DEDE1 /* SSKeychain.m in Sources */,
 				08FB52D318E2EA4500D90D27 /* Response.m in Sources */,
 				08353C6418E46B8C009DEDE1 /* MBProgressHUD.m in Sources */,
+				0403EBC718F58C40004A36BF /* ListScrollView.m in Sources */,
 				08353C5118E4442E009DEDE1 /* FMDatabase.m in Sources */,
 				08340AB518E26B7B00149335 /* main.m in Sources */,
 				3A1752B918F67DA300FDE8B9 /* DetailsView.m in Sources */,

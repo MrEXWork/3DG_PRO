@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface SettingViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface SettingViewController : BaseViewController<UITableViewDataSource,UITableViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UITableView *tableV;
+@property (retain, nonatomic) UITableView *tableV;
 
 
 @end

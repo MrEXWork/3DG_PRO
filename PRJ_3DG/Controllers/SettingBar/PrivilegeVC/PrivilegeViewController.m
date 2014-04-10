@@ -34,6 +34,13 @@
     self.title = @"优惠劵";
     
     _dataArr = @[@"ssfds",@"8ashf3",@"askfhej",@"asfs",@"dsfsd",@"9090",@"sdgd"];
+    
+    UITableView * tableV = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame)) style:UITableViewStylePlain];
+    self.tableVprivilege = tableV;
+    tableV.delegate = self;
+    tableV.dataSource = self;
+    tableV.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:tableV];
 }
 
 #pragma mark tableView Delegate

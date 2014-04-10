@@ -34,10 +34,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    if(SYSTEM_VERSION_MORE_THAN(7))
-    {
-        self.edgesForExtendedLayout = UIRectEdgeNone;
-    }
+
     self.title = @"商品类目";
     
     PullingRefreshTableView * classifyList = [[PullingRefreshTableView alloc]initWithFrame:CGRectMake(0, 0, kDeviceWidth, kDeviceHeight-88) pullingDelegate:self];

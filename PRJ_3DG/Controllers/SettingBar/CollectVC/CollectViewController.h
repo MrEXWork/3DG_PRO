@@ -16,5 +16,5 @@ typedef enum
 
 @interface CollectViewController : BaseViewController<UITableViewDelegate,UITableViewDataSource>
 
-@property (weak, nonatomic) IBOutlet UITableView *tableVCollect;
+@property (retain, nonatomic) UITableView *tableVCollect;
 @end

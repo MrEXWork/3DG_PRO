@@ -8,26 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		0418A42318EDA0D40021314C /* ShipingAddressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A42118EDA0D40021314C /* ShipingAddressVC.m */; };
-		0418A42418EDA0D40021314C /* ShipingAddressVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418A42218EDA0D40021314C /* ShipingAddressVC.xib */; };
 		0418A42818EDA1EA0021314C /* AddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A42618EDA1EA0021314C /* AddressCell.m */; };
 		0418A42918EDA1EA0021314C /* AddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418A42718EDA1EA0021314C /* AddressCell.xib */; };
 		0418A42E18EDAA120021314C /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A42C18EDAA120021314C /* PasswordViewController.m */; };
 		0418A42F18EDAA120021314C /* PasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418A42D18EDAA120021314C /* PasswordViewController.xib */; };
 		041BC89318ED004D00DC7835 /* DWBtnSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC89218ED004D00DC7835 /* DWBtnSelectView.m */; };
 		041BC89818ED00BB00DC7835 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC89618ED00BB00DC7835 /* SettingViewController.m */; };
-		041BC89918ED00BB00DC7835 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041BC89718ED00BB00DC7835 /* SettingViewController.xib */; };
 		041BC8A118ED075F00DC7835 /* OrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC89C18ED075F00DC7835 /* OrderCell.m */; };
 		041BC8A218ED075F00DC7835 /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041BC89D18ED075F00DC7835 /* OrderCell.xib */; };
 		041BC8A318ED075F00DC7835 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC89F18ED075F00DC7835 /* OrderViewController.m */; };
-		041BC8A418ED075F00DC7835 /* OrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041BC8A018ED075F00DC7835 /* OrderViewController.xib */; };
 		041BC8AF18ED07BA00DC7835 /* CollectMerchandiseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC8A718ED07BA00DC7835 /* CollectMerchandiseCell.m */; };
 		041BC8B018ED07BA00DC7835 /* CollectMerchandiseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041BC8A818ED07BA00DC7835 /* CollectMerchandiseCell.xib */; };
 		041BC8B118ED07BA00DC7835 /* CollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC8AA18ED07BA00DC7835 /* CollectViewController.m */; };
-		041BC8B218ED07BA00DC7835 /* CollectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041BC8AB18ED07BA00DC7835 /* CollectViewController.xib */; };
 		041BC8B318ED07BA00DC7835 /* StoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC8AD18ED07BA00DC7835 /* StoreTableViewCell.m */; };
 		041BC8B418ED07BA00DC7835 /* StoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041BC8AE18ED07BA00DC7835 /* StoreTableViewCell.xib */; };
 		041BC8BA18ED0F3B00DC7835 /* PrivilegeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC8B818ED0F3B00DC7835 /* PrivilegeViewController.m */; };
-		041BC8BB18ED0F3B00DC7835 /* PrivilegeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041BC8B918ED0F3B00DC7835 /* PrivilegeViewController.xib */; };
 		041BC8BF18ED100500DC7835 /* PrivilegeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC8BD18ED100500DC7835 /* PrivilegeCell.m */; };
 		041BC8C018ED100500DC7835 /* PrivilegeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041BC8BE18ED100500DC7835 /* PrivilegeCell.xib */; };
 		08338CC618E5B515002B07EA /* UINavigationController+Rotation_IOS6.m in Sources */ = {isa = PBXBuildFile; fileRef = 08338CB718E5B515002B07EA /* UINavigationController+Rotation_IOS6.m */; };
@@ -185,7 +180,6 @@
 /* Begin PBXFileReference section */
 		0418A42018EDA0D40021314C /* ShipingAddressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipingAddressVC.h; sourceTree = "<group>"; };
 		0418A42118EDA0D40021314C /* ShipingAddressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipingAddressVC.m; sourceTree = "<group>"; };
-		0418A42218EDA0D40021314C /* ShipingAddressVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShipingAddressVC.xib; sourceTree = "<group>"; };
 		0418A42518EDA1EA0021314C /* AddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCell.h; sourceTree = "<group>"; };
 		0418A42618EDA1EA0021314C /* AddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCell.m; sourceTree = "<group>"; };
 		0418A42718EDA1EA0021314C /* AddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressCell.xib; sourceTree = "<group>"; };
@@ -196,25 +190,21 @@
 		041BC89218ED004D00DC7835 /* DWBtnSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWBtnSelectView.m; sourceTree = "<group>"; };
 		041BC89518ED00BB00DC7835 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		041BC89618ED00BB00DC7835 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
-		041BC89718ED00BB00DC7835 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
 		041BC89B18ED075F00DC7835 /* OrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCell.h; sourceTree = "<group>"; };
 		041BC89C18ED075F00DC7835 /* OrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderCell.m; sourceTree = "<group>"; };
 		041BC89D18ED075F00DC7835 /* OrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
 		041BC89E18ED075F00DC7835 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
 		041BC89F18ED075F00DC7835 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
-		041BC8A018ED075F00DC7835 /* OrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderViewController.xib; sourceTree = "<group>"; };
 		041BC8A618ED07BA00DC7835 /* CollectMerchandiseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectMerchandiseCell.h; sourceTree = "<group>"; };
 		041BC8A718ED07BA00DC7835 /* CollectMerchandiseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectMerchandiseCell.m; sourceTree = "<group>"; };
 		041BC8A818ED07BA00DC7835 /* CollectMerchandiseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectMerchandiseCell.xib; sourceTree = "<group>"; };
 		041BC8A918ED07BA00DC7835 /* CollectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectViewController.h; sourceTree = "<group>"; };
 		041BC8AA18ED07BA00DC7835 /* CollectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectViewController.m; sourceTree = "<group>"; };
-		041BC8AB18ED07BA00DC7835 /* CollectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectViewController.xib; sourceTree = "<group>"; };
 		041BC8AC18ED07BA00DC7835 /* StoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreTableViewCell.h; sourceTree = "<group>"; };
 		041BC8AD18ED07BA00DC7835 /* StoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreTableViewCell.m; sourceTree = "<group>"; };
 		041BC8AE18ED07BA00DC7835 /* StoreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreTableViewCell.xib; sourceTree = "<group>"; };
 		041BC8B718ED0F3B00DC7835 /* PrivilegeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivilegeViewController.h; sourceTree = "<group>"; };
 		041BC8B818ED0F3B00DC7835 /* PrivilegeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivilegeViewController.m; sourceTree = "<group>"; };
-		041BC8B918ED0F3B00DC7835 /* PrivilegeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivilegeViewController.xib; sourceTree = "<group>"; };
 		041BC8BC18ED100500DC7835 /* PrivilegeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivilegeCell.h; sourceTree = "<group>"; };
 		041BC8BD18ED100500DC7835 /* PrivilegeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivilegeCell.m; sourceTree = "<group>"; };
 		041BC8BE18ED100500DC7835 /* PrivilegeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivilegeCell.xib; sourceTree = "<group>"; };
@@ -547,7 +537,6 @@
 			children = (
 				041BC89518ED00BB00DC7835 /* SettingViewController.h */,
 				041BC89618ED00BB00DC7835 /* SettingViewController.m */,
-				041BC89718ED00BB00DC7835 /* SettingViewController.xib */,
 				041BC89A18ED075400DC7835 /* OrderVC */,
 				041BC8A518ED07B600DC7835 /* CollectVC */,
 				041BC8B618ED0F0400DC7835 /* PrivilegeVC */,
@@ -562,7 +551,6 @@
 			children = (
 				041BC89E18ED075F00DC7835 /* OrderViewController.h */,
 				041BC89F18ED075F00DC7835 /* OrderViewController.m */,
-				041BC8A018ED075F00DC7835 /* OrderViewController.xib */,
 				041BC89B18ED075F00DC7835 /* OrderCell.h */,
 				041BC89C18ED075F00DC7835 /* OrderCell.m */,
 				041BC89D18ED075F00DC7835 /* OrderCell.xib */,
@@ -575,7 +563,6 @@
 			children = (
 				041BC8A918ED07BA00DC7835 /* CollectViewController.h */,
 				041BC8AA18ED07BA00DC7835 /* CollectViewController.m */,
-				041BC8AB18ED07BA00DC7835 /* CollectViewController.xib */,
 				041BC8A618ED07BA00DC7835 /* CollectMerchandiseCell.h */,
 				041BC8A718ED07BA00DC7835 /* CollectMerchandiseCell.m */,
 				041BC8A818ED07BA00DC7835 /* CollectMerchandiseCell.xib */,
@@ -591,7 +578,6 @@
 			children = (
 				041BC8B718ED0F3B00DC7835 /* PrivilegeViewController.h */,
 				041BC8B818ED0F3B00DC7835 /* PrivilegeViewController.m */,
-				041BC8B918ED0F3B00DC7835 /* PrivilegeViewController.xib */,
 				041BC8BC18ED100500DC7835 /* PrivilegeCell.h */,
 				041BC8BD18ED100500DC7835 /* PrivilegeCell.m */,
 				041BC8BE18ED100500DC7835 /* PrivilegeCell.xib */,
@@ -604,7 +590,6 @@
 			children = (
 				0418A42018EDA0D40021314C /* ShipingAddressVC.h */,
 				0418A42118EDA0D40021314C /* ShipingAddressVC.m */,
-				0418A42218EDA0D40021314C /* ShipingAddressVC.xib */,
 				0418A42518EDA1EA0021314C /* AddressCell.h */,
 				0418A42618EDA1EA0021314C /* AddressCell.m */,
 				0418A42718EDA1EA0021314C /* AddressCell.xib */,
@@ -1401,21 +1386,17 @@
 				08353BD718E41E1E009DEDE1 /* UMShareEditViewController.xib in Resources */,
 				08B9006818EF153D008C0A4B /* nav_index_pic@2x.png in Resources */,
 				08353BD618E41E1E009DEDE1 /* UMSCommentInputControlleriPad.xib in Resources */,
-				041BC8B218ED07BA00DC7835 /* CollectViewController.xib in Resources */,
-				3A19161718F4340000C4C7F0 /* u114_normal.png in Resources */,
 				041BC8C018ED100500DC7835 /* PrivilegeCell.xib in Resources */,
 				08340AB318E26B7B00149335 /* InfoPlist.strings in Resources */,
 				08353C4518E443F1009DEDE1 /* PushConfig.plist in Resources */,
 				08353BD418E41E1E009DEDE1 /* UMSCommentDetailController.xib in Resources */,
 				08353BF718E41E6D009DEDE1 /* refresh_arrow_up@2x.png in Resources */,
 				08353BDA18E41E1E009DEDE1 /* UMSnsAccountViewController.xib in Resources */,
-				3A19161318F433EE00C4C7F0 /* u4_normal.png in Resources */,
-				041BC8A418ED075F00DC7835 /* OrderViewController.xib in Resources */,
+
 				08B900AD18EF1ACD008C0A4B /* Images.xcassets in Resources */,
 				0418A42918EDA1EA0021314C /* AddressCell.xib in Resources */,
 				08353BF618E41E6D009DEDE1 /* refresh_arrow_up.png in Resources */,
 				08B9006A18EF153D008C0A4B /* nav_shop_pic@2x.png in Resources */,
-				0418A42418EDA0D40021314C /* ShipingAddressVC.xib in Resources */,
 				0418A42F18EDAA120021314C /* PasswordViewController.xib in Resources */,
 				08353BF518E41E6D009DEDE1 /* refresh_arrow_down@2x.png in Resources */,
 				08353BDC18E41E1E009DEDE1 /* UMSocialSDKResourcesNew.bundle in Resources */,
@@ -1426,10 +1407,8 @@
 				3A19161518F433F900C4C7F0 /* u99_normal.png in Resources */,
 				08B9006918EF153D008C0A4B /* nav_more_pic@2x.png in Resources */,
 				08353C5A18E44446009DEDE1 /* SVProgressHUD.bundle in Resources */,
-				041BC8BB18ED0F3B00DC7835 /* PrivilegeViewController.xib in Resources */,
 				041BC8B018ED07BA00DC7835 /* CollectMerchandiseCell.xib in Resources */,
 				08353BDB18E41E1E009DEDE1 /* UMSShareListController.xib in Resources */,
-				041BC89918ED00BB00DC7835 /* SettingViewController.xib in Resources */,
 				08353BF418E41E6D009DEDE1 /* refresh_arrow_down.png in Resources */,
 				08B9006718EF153D008C0A4B /* nav_classify_pic@2x.png in Resources */,
 				08353BD818E41E1E009DEDE1 /* UMShareEditViewControlleriPad.xib in Resources */,

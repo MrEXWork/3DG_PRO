@@ -36,23 +36,31 @@
     self.title = @"订单";
     
     // Do any additional setup after loading the view from its nib.
+
+    _dataArr = @[@"ssfds",@"8ashf3",@"askfhej",@"asfs",@"dsfsd",@"9090",@"sdgd"];
+
+    [self setUpView];
+}
+
+-(void)setUpView
+{
     _switchBtn = [[DWBtnSelectView alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), HeadSwitchBtn)];
     _switchBtn.duration = 0.2;
     [_switchBtn btnNameDataWithArr:@[@"近一个月的订单",@"一个月前的订单"] andClickAction:^(NSInteger selectIndex) {
         [self switchBtnSelectEvent:selectIndex];
     }];
-
-//    _switchBtn.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleRightMargin;
-
+    
     [self.view addSubview:_switchBtn];
     
     CGRect tableFrame = CGRectMake(0, HeadSwitchBtn, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame) - HeadSwitchBtn);
     
-    self.tableVOrder.frame = tableFrame;
-    
-    _dataArr = @[@"ssfds",@"8ashf3",@"askfhej",@"asfs",@"dsfsd",@"9090",@"sdgd"];
+    UITableView * tableV = [[UITableView alloc]initWithFrame:tableFrame style:UITableViewStylePlain];
+    self.tableVOrder = tableV;
+    tableV.delegate = self;
+    tableV.dataSource = self;
+    tableV.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:tableV];
 }
-
 
 #pragma mark 切换订单选项
 - (void)switchBtnSelectEvent:(NSInteger)index

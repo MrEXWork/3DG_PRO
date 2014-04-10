@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0403EBC518F58C40004A36BF /* ClassifyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBBC18F58C40004A36BF /* ClassifyCell.m */; };
-		0403EBC618F58C40004A36BF /* ClassifyIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBBE18F58C40004A36BF /* ClassifyIndexView.m */; };
-		0403EBC718F58C40004A36BF /* ListScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBC018F58C40004A36BF /* ListScrollView.m */; };
-		0403EBC818F58C40004A36BF /* SpecificCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBC218F58C40004A36BF /* SpecificCell.m */; };
 		0403EBCB18F58C9C004A36BF /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBCA18F58C9C004A36BF /* CycleScrollView.m */; };
 		0403EBCE18F58CA4004A36BF /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403EBCD18F58CA4004A36BF /* NSTimer+Addition.m */; };
 		0418A42318EDA0D40021314C /* ShipingAddressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A42118EDA0D40021314C /* ShipingAddressVC.m */; };
@@ -18,7 +14,6 @@
 		0418A42918EDA1EA0021314C /* AddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418A42718EDA1EA0021314C /* AddressCell.xib */; };
 		0418A42E18EDAA120021314C /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A42C18EDAA120021314C /* PasswordViewController.m */; };
 		0418A42F18EDAA120021314C /* PasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418A42D18EDAA120021314C /* PasswordViewController.xib */; };
-		041BC89318ED004D00DC7835 /* DWBtnSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC89218ED004D00DC7835 /* DWBtnSelectView.m */; };
 		041BC89818ED00BB00DC7835 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC89618ED00BB00DC7835 /* SettingViewController.m */; };
 		041BC8A118ED075F00DC7835 /* OrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BC89C18ED075F00DC7835 /* OrderCell.m */; };
 		041BC8A218ED075F00DC7835 /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041BC89D18ED075F00DC7835 /* OrderCell.xib */; };
@@ -150,6 +145,7 @@
 		08B9006918EF153D008C0A4B /* nav_more_pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B9006518EF153D008C0A4B /* nav_more_pic@2x.png */; };
 		08B9006A18EF153D008C0A4B /* nav_shop_pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B9006618EF153D008C0A4B /* nav_shop_pic@2x.png */; };
 		08B900AD18EF1ACD008C0A4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B900AC18EF1ACD008C0A4B /* Images.xcassets */; };
+		08BC23E818F6EA1300BB8490 /* DWBtnSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC23E718F6EA1300BB8490 /* DWBtnSelectView.m */; };
 		08BEEF4618EB18900083F619 /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BEEF4518EB18900083F619 /* ShoppingCartViewController.m */; };
 		08FB52D218E2EA4500D90D27 /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB52C118E2EA4500D90D27 /* Base.m */; };
 		08FB52D318E2EA4500D90D27 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB52C418E2EA4500D90D27 /* Response.m */; };
@@ -187,14 +183,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0403EBBB18F58C40004A36BF /* ClassifyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyCell.h; sourceTree = "<group>"; };
-		0403EBBC18F58C40004A36BF /* ClassifyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyCell.m; sourceTree = "<group>"; };
-		0403EBBD18F58C40004A36BF /* ClassifyIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyIndexView.h; sourceTree = "<group>"; };
-		0403EBBE18F58C40004A36BF /* ClassifyIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyIndexView.m; sourceTree = "<group>"; };
-		0403EBBF18F58C40004A36BF /* ListScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListScrollView.h; sourceTree = "<group>"; };
-		0403EBC018F58C40004A36BF /* ListScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListScrollView.m; sourceTree = "<group>"; };
-		0403EBC118F58C40004A36BF /* SpecificCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecificCell.h; sourceTree = "<group>"; };
-		0403EBC218F58C40004A36BF /* SpecificCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecificCell.m; sourceTree = "<group>"; };
 		0403EBC918F58C9C004A36BF /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
 		0403EBCA18F58C9C004A36BF /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
 		0403EBCC18F58CA4004A36BF /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
@@ -207,8 +195,6 @@
 		0418A42B18EDAA120021314C /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
 		0418A42C18EDAA120021314C /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
 		0418A42D18EDAA120021314C /* PasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordViewController.xib; sourceTree = "<group>"; };
-		041BC89118ED004D00DC7835 /* DWBtnSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWBtnSelectView.h; sourceTree = "<group>"; };
-		041BC89218ED004D00DC7835 /* DWBtnSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWBtnSelectView.m; sourceTree = "<group>"; };
 		041BC89518ED00BB00DC7835 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		041BC89618ED00BB00DC7835 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		041BC89B18ED075F00DC7835 /* OrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCell.h; sourceTree = "<group>"; };
@@ -448,6 +434,8 @@
 		08B9006518EF153D008C0A4B /* nav_more_pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_more_pic@2x.png"; sourceTree = "<group>"; };
 		08B9006618EF153D008C0A4B /* nav_shop_pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_shop_pic@2x.png"; sourceTree = "<group>"; };
 		08B900AC18EF1ACD008C0A4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08BC23E618F6EA1300BB8490 /* DWBtnSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWBtnSelectView.h; sourceTree = "<group>"; };
+		08BC23E718F6EA1300BB8490 /* DWBtnSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWBtnSelectView.m; sourceTree = "<group>"; };
 		08BEEF4418EB18900083F619 /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
 		08BEEF4518EB18900083F619 /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
 		08FB52BC18E2EA4500D90D27 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
@@ -539,36 +527,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0403EBB918F58C40004A36BF /* views */ = {
-			isa = PBXGroup;
-			children = (
-				0403EBBA18F58C40004A36BF /* Classify */,
-				0403EBC318F58C40004A36BF /* homePage */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		0403EBBA18F58C40004A36BF /* Classify */ = {
-			isa = PBXGroup;
-			children = (
-				0403EBBB18F58C40004A36BF /* ClassifyCell.h */,
-				0403EBBC18F58C40004A36BF /* ClassifyCell.m */,
-				0403EBBD18F58C40004A36BF /* ClassifyIndexView.h */,
-				0403EBBE18F58C40004A36BF /* ClassifyIndexView.m */,
-				0403EBBF18F58C40004A36BF /* ListScrollView.h */,
-				0403EBC018F58C40004A36BF /* ListScrollView.m */,
-				0403EBC118F58C40004A36BF /* SpecificCell.h */,
-				0403EBC218F58C40004A36BF /* SpecificCell.m */,
-			);
-			path = Classify;
-			sourceTree = "<group>";
-		};
 		0403EBC318F58C40004A36BF /* homePage */ = {
 			isa = PBXGroup;
 			children = (
 				0403EBC418F58C40004A36BF /* scrollv */,
 			);
-			path = homePage;
+			name = homePage;
+			path = ../views/homePage;
 			sourceTree = "<group>";
 		};
 		0403EBC418F58C40004A36BF /* scrollv */ = {
@@ -590,15 +555,6 @@
 				0418A42D18EDAA120021314C /* PasswordViewController.xib */,
 			);
 			path = Password;
-			sourceTree = "<group>";
-		};
-		041BC89018ED004D00DC7835 /* btnSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				041BC89118ED004D00DC7835 /* DWBtnSelectView.h */,
-				041BC89218ED004D00DC7835 /* DWBtnSelectView.m */,
-			);
-			path = btnSwitch;
 			sourceTree = "<group>";
 		};
 		041BC89418ED00A300DC7835 /* SettingBar */ = {
@@ -726,12 +682,11 @@
 			children = (
 				08340AB718E26B7B00149335 /* AppDelegate.h */,
 				08340AB818E26B7B00149335 /* AppDelegate.m */,
-				3A1752A818F67DA300FDE8B9 /* Views */,
 				08FB52BB18E2EA4500D90D27 /* Common */,
 				08FB52CA18E2EA4500D90D27 /* Utils */,
 				08FB52BD18E2EA4500D90D27 /* Controllers */,
+				3A1752A818F67DA300FDE8B9 /* Views */,
 				08FB52DB18E2EB0300D90D27 /* Api */,
-				0403EBB918F58C40004A36BF /* views */,
 				08FB52BE18E2EA4500D90D27 /* DataAccess */,
 				08FB52BF18E2EA4500D90D27 /* Models */,
 				08FB52C718E2EA4500D90D27 /* Resource */,
@@ -1159,6 +1114,30 @@
 			name = Classify;
 			sourceTree = "<group>";
 		};
+		08BC23E318F6EA1300BB8490 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		08BC23E418F6EA1300BB8490 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				08BC23E518F6EA1300BB8490 /* btnSwitch */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		08BC23E518F6EA1300BB8490 /* btnSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				08BC23E618F6EA1300BB8490 /* DWBtnSelectView.h */,
+				08BC23E718F6EA1300BB8490 /* DWBtnSelectView.m */,
+			);
+			path = btnSwitch;
+			sourceTree = "<group>";
+		};
 		08BEEF4718EB18950083F619 /* ShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
@@ -1233,26 +1212,18 @@
 		08FB52CA18E2EA4500D90D27 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				041BC89018ED004D00DC7835 /* btnSwitch */,
 				08338CDC18E5B564002B07EA /* Utility_DeviceIdentification.h */,
 				08338CDD18E5B564002B07EA /* Utility_DeviceIdentification.m */,
 				08FB52E518E2ECC800D90D27 /* SynthesizeSingleton.h */,
 				08FB52E218E2EC1600D90D27 /* BaseViewController.h */,
 				08FB52E318E2EC1600D90D27 /* BaseViewController.m */,
 				08FB52CE18E2EA4500D90D27 /* DLog.h */,
-				08FB52CB18E2EA4500D90D27 /* Cache */,
+				08BC23E318F6EA1300BB8490 /* Cache */,
+				08BC23E418F6EA1300BB8490 /* Controls */,
 				08FB52CC18E2EA4500D90D27 /* Categorys */,
-				08FB52CD18E2EA4500D90D27 /* Controls */,
 				08FB52CF18E2EA4500D90D27 /* Tools */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		08FB52CB18E2EA4500D90D27 /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cache;
 			sourceTree = "<group>";
 		};
 		08FB52CC18E2EA4500D90D27 /* Categorys */ = {
@@ -1278,13 +1249,6 @@
 				08FB52E618E2ECF000D90D27 /* UIDeviceAdditions */,
 			);
 			path = Categorys;
-			sourceTree = "<group>";
-		};
-		08FB52CD18E2EA4500D90D27 /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controls;
 			sourceTree = "<group>";
 		};
 		08FB52CF18E2EA4500D90D27 /* Tools */ = {
@@ -1340,6 +1304,7 @@
 		3A1752A818F67DA300FDE8B9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0403EBC318F58C40004A36BF /* homePage */,
 				3A1752BE18F67DC000FDE8B9 /* Classify */,
 			);
 			path = Views;
@@ -1520,7 +1485,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				08338CD818E5B536002B07EA /* UIImage+Screenshot.m in Sources */,
-				0403EBC518F58C40004A36BF /* ClassifyCell.m in Sources */,
 				0847B17118E3AFFD00B5AFAC /* ASIDataCompressor.m in Sources */,
 				0847B18418E3AFFD00B5AFAC /* ASIS3Request.m in Sources */,
 				08353BF318E41E6D009DEDE1 /* MessageInterceptor.m in Sources */,
@@ -1534,6 +1498,7 @@
 				0847B18118E3AFFD00B5AFAC /* ASIS3BucketObject.m in Sources */,
 				08353B6318E41DD1009DEDE1 /* JSONKit.m in Sources */,
 				08353BF118E41E6D009DEDE1 /* EGORefreshTableHeaderView.m in Sources */,
+				08BC23E818F6EA1300BB8490 /* DWBtnSelectView.m in Sources */,
 				08338CDE18E5B564002B07EA /* Utility_DeviceIdentification.m in Sources */,
 				0847B17418E3AFFD00B5AFAC /* ASIFormDataRequest.m in Sources */,
 				08338CC818E5B515002B07EA /* UIImage+CutImage.m in Sources */,
@@ -1552,7 +1517,6 @@
 				08353B8E18E41DEE009DEDE1 /* SDWebImageDecoder.m in Sources */,
 				3A2476C018F14A7A00DFB821 /* ClassifyIndexViewController.m in Sources */,
 				0847B17F18E3AFFD00B5AFAC /* ASICloudFilesRequest.m in Sources */,
-				041BC89318ED004D00DC7835 /* DWBtnSelectView.m in Sources */,
 				08353B9118E41DEE009DEDE1 /* SDWebImageManager.m in Sources */,
 				08338CD718E5B536002B07EA /* UIImage+ImageWithColor.m in Sources */,
 				08B9004F18EF10D3008C0A4B /* HomePageViewController.m in Sources */,
@@ -1572,7 +1536,6 @@
 				08353B6718E41DDC009DEDE1 /* AsyncSocket.m in Sources */,
 				08353BA118E41E05009DEDE1 /* CheckNetwork.m in Sources */,
 				08BEEF4618EB18900083F619 /* ShoppingCartViewController.m in Sources */,
-				0403EBC818F58C40004A36BF /* SpecificCell.m in Sources */,
 				041BC8AF18ED07BA00DC7835 /* CollectMerchandiseCell.m in Sources */,
 				3A1752BD18F67DA300FDE8B9 /* SpecificCell.m in Sources */,
 				041BC8BA18ED0F3B00DC7835 /* PrivilegeViewController.m in Sources */,
@@ -1590,7 +1553,6 @@
 				08353B8F18E41DEE009DEDE1 /* SDWebImageDownloader.m in Sources */,
 				0403EBCB18F58C9C004A36BF /* CycleScrollView.m in Sources */,
 				0847B17C18E3AFFD00B5AFAC /* ASICloudFilesContainerXMLParserDelegate.m in Sources */,
-				0403EBC618F58C40004A36BF /* ClassifyIndexView.m in Sources */,
 				08338CDB18E5B55E002B07EA /* UmengUtil.m in Sources */,
 				0847B17218E3AFFD00B5AFAC /* ASIDataDecompressor.m in Sources */,
 				0847B18818E3B60600B5AFAC /* NetTool.m in Sources */,
@@ -1620,7 +1582,6 @@
 				08353B6B18E41DE6009DEDE1 /* SSKeychain.m in Sources */,
 				08FB52D318E2EA4500D90D27 /* Response.m in Sources */,
 				08353C6418E46B8C009DEDE1 /* MBProgressHUD.m in Sources */,
-				0403EBC718F58C40004A36BF /* ListScrollView.m in Sources */,
 				08353C5118E4442E009DEDE1 /* FMDatabase.m in Sources */,
 				08340AB518E26B7B00149335 /* main.m in Sources */,
 				3A1752B918F67DA300FDE8B9 /* DetailsView.m in Sources */,

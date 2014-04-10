@@ -159,10 +159,13 @@
 		3A1752BC18F67DA300FDE8B9 /* ListScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1752B418F67DA300FDE8B9 /* ListScrollView.m */; };
 		3A1752BD18F67DA300FDE8B9 /* SpecificCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1752B618F67DA300FDE8B9 /* SpecificCell.m */; };
 		3A19160E18F420FD00C4C7F0 /* SpecificViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A19160D18F420FD00C4C7F0 /* SpecificViewController.m */; };
-		3A19161318F433EE00C4C7F0 /* u4_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A19161218F433EE00C4C7F0 /* u4_normal.png */; };
 		3A19161518F433F900C4C7F0 /* u99_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A19161418F433F900C4C7F0 /* u99_normal.png */; };
-		3A19161718F4340000C4C7F0 /* u114_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A19161618F4340000C4C7F0 /* u114_normal.png */; };
 		3A2476C018F14A7A00DFB821 /* ClassifyIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2476BF18F14A7A00DFB821 /* ClassifyIndexViewController.m */; };
+		3A2493A618F6C1620052B93E /* u68_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2493A518F6C1620052B93E /* u68_normal.png */; };
+		3A2493A818F6C1DE0052B93E /* u65_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2493A718F6C1DE0052B93E /* u65_line.png */; };
+		3A2493AB18F6C23E0052B93E /* u62_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2493AA18F6C23E0052B93E /* u62_normal.png */; };
+		3A2493AD18F6C4BB0052B93E /* u93_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2493AC18F6C4BB0052B93E /* u93_normal.png */; };
+		3A2493AF18F6C7FB0052B93E /* u95_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2493AE18F6C7FB0052B93E /* u95_normal.png */; };
 		3A4D3C0B18EB198D00B01C5A /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D3C0A18EB198D00B01C5A /* MyAccountViewController.m */; };
 		3A83005218F4D83D0018946F /* GoodDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83005118F4D83D0018946F /* GoodDetailsViewController.m */; };
 /* End PBXBuildFile section */
@@ -467,6 +470,11 @@
 		3A19161618F4340000C4C7F0 /* u114_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u114_normal.png; sourceTree = "<group>"; };
 		3A2476BE18F14A7A00DFB821 /* ClassifyIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyIndexViewController.h; sourceTree = "<group>"; };
 		3A2476BF18F14A7A00DFB821 /* ClassifyIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyIndexViewController.m; sourceTree = "<group>"; };
+		3A2493A518F6C1620052B93E /* u68_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u68_normal.png; sourceTree = "<group>"; };
+		3A2493A718F6C1DE0052B93E /* u65_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u65_line.png; sourceTree = "<group>"; };
+		3A2493AA18F6C23E0052B93E /* u62_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u62_normal.png; sourceTree = "<group>"; };
+		3A2493AC18F6C4BB0052B93E /* u93_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u93_normal.png; sourceTree = "<group>"; };
+		3A2493AE18F6C7FB0052B93E /* u95_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u95_normal.png; sourceTree = "<group>"; };
 		3A4D3C0918EB198D00B01C5A /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
 		3A4D3C0A18EB198D00B01C5A /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
 		3A83005018F4D83D0018946F /* GoodDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodDetailsViewController.h; sourceTree = "<group>"; };
@@ -655,9 +663,9 @@
 		08340AAE18E26B7B00149335 /* PRJ_3DG */ = {
 			isa = PBXGroup;
 			children = (
-				3A1752A818F67DA300FDE8B9 /* Views */,
 				08340AB718E26B7B00149335 /* AppDelegate.h */,
 				08340AB818E26B7B00149335 /* AppDelegate.m */,
+				3A1752A818F67DA300FDE8B9 /* Views */,
 				08FB52BB18E2EA4500D90D27 /* Common */,
 				08FB52CA18E2EA4500D90D27 /* Utils */,
 				08FB52BD18E2EA4500D90D27 /* Controllers */,
@@ -1142,9 +1150,7 @@
 		08FB52C718E2EA4500D90D27 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				3A19161418F433F900C4C7F0 /* u99_normal.png */,
-				3A19161218F433EE00C4C7F0 /* u4_normal.png */,
-				3A19161618F4340000C4C7F0 /* u114_normal.png */,
+				3A2493A918F6C1EC0052B93E /* Classify */,
 				08B900AC18EF1ACD008C0A4B /* Images.xcassets */,
 				08B9006318EF153D008C0A4B /* nav_classify_pic@2x.png */,
 				08B9006418EF153D008C0A4B /* nav_index_pic@2x.png */,
@@ -1298,6 +1304,21 @@
 			name = Classify;
 			sourceTree = "<group>";
 		};
+		3A2493A918F6C1EC0052B93E /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				3A2493AE18F6C7FB0052B93E /* u95_normal.png */,
+				3A2493AC18F6C4BB0052B93E /* u93_normal.png */,
+				3A2493AA18F6C23E0052B93E /* u62_normal.png */,
+				3A2493A718F6C1DE0052B93E /* u65_line.png */,
+				3A19161418F433F900C4C7F0 /* u99_normal.png */,
+				3A2493A518F6C1620052B93E /* u68_normal.png */,
+				3A19161218F433EE00C4C7F0 /* u4_normal.png */,
+				3A19161618F4340000C4C7F0 /* u114_normal.png */,
+			);
+			name = Classify;
+			sourceTree = "<group>";
+		};
 		3A4D3C0818EB190C00B01C5A /* MyAccount */ = {
 			isa = PBXGroup;
 			children = (
@@ -1386,13 +1407,15 @@
 				08353BD718E41E1E009DEDE1 /* UMShareEditViewController.xib in Resources */,
 				08B9006818EF153D008C0A4B /* nav_index_pic@2x.png in Resources */,
 				08353BD618E41E1E009DEDE1 /* UMSCommentInputControlleriPad.xib in Resources */,
+				3A2493A618F6C1620052B93E /* u68_normal.png in Resources */,
 				041BC8C018ED100500DC7835 /* PrivilegeCell.xib in Resources */,
 				08340AB318E26B7B00149335 /* InfoPlist.strings in Resources */,
+				3A2493A818F6C1DE0052B93E /* u65_line.png in Resources */,
 				08353C4518E443F1009DEDE1 /* PushConfig.plist in Resources */,
 				08353BD418E41E1E009DEDE1 /* UMSCommentDetailController.xib in Resources */,
 				08353BF718E41E6D009DEDE1 /* refresh_arrow_up@2x.png in Resources */,
+				3A2493AB18F6C23E0052B93E /* u62_normal.png in Resources */,
 				08353BDA18E41E1E009DEDE1 /* UMSnsAccountViewController.xib in Resources */,
-
 				08B900AD18EF1ACD008C0A4B /* Images.xcassets in Resources */,
 				0418A42918EDA1EA0021314C /* AddressCell.xib in Resources */,
 				08353BF618E41E6D009DEDE1 /* refresh_arrow_up.png in Resources */,
@@ -1405,6 +1428,7 @@
 				08353C6318E46B8C009DEDE1 /* MBProgressHUD.bundle in Resources */,
 				08353BD518E41E1E009DEDE1 /* UMSCommentInputController.xib in Resources */,
 				3A19161518F433F900C4C7F0 /* u99_normal.png in Resources */,
+				3A2493AD18F6C4BB0052B93E /* u93_normal.png in Resources */,
 				08B9006918EF153D008C0A4B /* nav_more_pic@2x.png in Resources */,
 				08353C5A18E44446009DEDE1 /* SVProgressHUD.bundle in Resources */,
 				041BC8B018ED07BA00DC7835 /* CollectMerchandiseCell.xib in Resources */,
@@ -1414,6 +1438,7 @@
 				08353BD818E41E1E009DEDE1 /* UMShareEditViewControlleriPad.xib in Resources */,
 				08353BD118E41E1E009DEDE1 /* UMSocialLocalizable.strings in Resources */,
 				041BC8B418ED07BA00DC7835 /* StoreTableViewCell.xib in Resources */,
+				3A2493AF18F6C7FB0052B93E /* u95_normal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

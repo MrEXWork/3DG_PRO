@@ -23,6 +23,6 @@
 @property (strong, nonatomic) NSArray * stars;
 @property (strong, nonatomic) UILabel * circle_praiseRate;
 @property (strong, nonatomic) UILabel * circle_sales;
-@property (strong, nonatomic) UILabel * numb;
+@property (strong, nonatomic) UILabel * circle_numb;
 
 @end

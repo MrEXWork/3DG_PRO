@@ -8,6 +8,7 @@
 
 #import "GoodDetailsViewController.h"
 #import "AppDelegate.h"
+#import "IntroductionView.h"
 
 #define buttonHeight 20
 
@@ -46,6 +47,9 @@
     [self.view addSubview:list];
     list.hidden = YES;
 
+    IntroductionView * introduction = [[IntroductionView alloc] initWithFrame:CGRectMake(0, 30, kDeviceWidth, kDeviceHeight -30 -90)];
+    [introduction setBackgroundColor:[UIColor blueColor]];
+    [self.view addSubview:introduction];
     
 }
 

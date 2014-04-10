@@ -93,7 +93,89 @@
     self.icon = iconImageView;
     [self addSubview:iconImageView];
     
-    UILabel * storeNameLab = [[UILabel alloc] ]
+    ///
+    UILabel * storeNameLab = [[UILabel alloc] initWithFrame:CGRectMake(35, kDeviceWidth-20+5+5+40+5+5+25+10+30, 100, 25)];
+    storeNameLab.backgroundColor = [UIColor clearColor];
+    storeNameLab.textAlignment = NSTextAlignmentLeft;
+    storeNameLab.font = AppFont(15);
+    storeNameLab.textColor = [UIColor blackColor];
+    self.storeName = storeNameLab;
+    [self addSubview:storeNameLab];
+    
+    //arrow
+    UIImageView * arrow = [[UIImageView alloc] initWithFrame:CGRectMake(kDeviceWidth-35, kDeviceWidth-20+5+5+40+5+5+25+10+30, 25, 25)];
+    arrow.image = [UIImage imageNamed:@"u68_normal.png"];
+    [self addSubview:arrow];
+    
+    UIImageView * longline = [[UIImageView alloc] initWithFrame:CGRectMake(5, kDeviceWidth-20+5+5+40+5+5+25+10+30+25+2, kDeviceWidth-10, 2)];
+    longline.image = [UIImage imageNamed:@"u65_line.png"];
+    [self addSubview:longline];
+    
+    UILabel * c_praiseRate = [[UILabel alloc] initWithFrame:CGRectMake(20, kDeviceWidth-20+5+5+40+5+5+25+10+30+25+2+2+3, 27, 27)];
+    [c_praiseRate setBackgroundColor: [UIColor colorWithPatternImage:[UIImage imageNamed:@"u93_normal"]]];
+    c_praiseRate.textAlignment = NSTextAlignmentCenter;
+    c_praiseRate.font = AppFont(13);
+    self.circle_praiseRate = c_praiseRate;
+    [self addSubview:c_praiseRate];
+    
+    UILabel * praise = [[UILabel alloc] initWithFrame:CGRectMake(20, kDeviceWidth-20+5+5+40+5+5+25+10+30+25+2+2+3+27+3, 27, 20)];
+    [praise setBackgroundColor:[UIColor clearColor]];
+    praise.textAlignment = NSTextAlignmentCenter;
+    praise.textColor = [UIColor blackColor];
+    praise.font = AppFont(13);
+    [self addSubview:praise];
+    
+    UILabel * c_sales = [[UILabel alloc] initWithFrame:CGRectMake(20+100+27, kDeviceWidth-20+5+5+40+5+5+25+10+30+25+2+2+3, 27, 27)];
+    c_sales.text = @"好评率";
+    [c_sales setBackgroundColor: [UIColor colorWithPatternImage:[UIImage imageNamed:@"u93_normal"]]];
+    c_sales.textAlignment = NSTextAlignmentCenter;
+    c_sales.font = AppFont(13);
+    self.circle_sales = c_sales;
+    [self addSubview:c_sales];
+    
+    UILabel * sales = [[UILabel alloc] initWithFrame:CGRectMake(20+100+27, kDeviceWidth-20+5+5+40+5+5+25+10+30+25+2+2+3+27+3, 27, 20)];
+    sales.text = @"总销量";
+    [sales setBackgroundColor:[UIColor clearColor]];
+    sales.textAlignment = NSTextAlignmentCenter;
+    sales.textColor = [UIColor blackColor];
+    sales.font = AppFont(13);
+    [self addSubview:sales];
+    
+    UILabel * c_numb = [[UILabel alloc] initWithFrame:CGRectMake(20+100+27+100+27, kDeviceWidth-20+5+5+40+5+5+25+10+30+25+2+2+3, 27, 27)];
+    [c_numb setBackgroundColor: [UIColor colorWithPatternImage:[UIImage imageNamed:@"u93_normal"]]];
+    c_numb.textAlignment = NSTextAlignmentCenter;
+    c_numb.font = AppFont(13);
+    self.circle_numb = c_numb;
+    [self addSubview:c_numb];
+    
+    UILabel * numb = [[UILabel alloc] initWithFrame:CGRectMake(20+100+27+100+27, kDeviceWidth-20+5+5+40+5+5+25+10+30+25+2+2+3+27+3, 27, 20)];
+    numb.text = @"商品数";
+    [numb setBackgroundColor:[UIColor clearColor]];
+    numb.textAlignment = NSTextAlignmentCenter;
+    numb.textColor = [UIColor blackColor];
+    numb.font = AppFont(13);
+    [self addSubview:numb];
+    
+    UIButton * gotoDetail = [[UIButton alloc] initWithFrame:CGRectMake(0, kDeviceWidth-20+5+5+40+5+5+25+5+30, kDeviceWidth, 80)];
+    [gotoDetail setBackgroundImage:[UIImage imageNamed:@"u95_normal.png"] forState:UIControlStateNormal];
+    [gotoDetail addTarget:self action:@selector(detailAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self addSubview:gotoDetail];
+    
+    UIButton * buy = [[UIButton alloc] initWithFrame:CGRectMake(0, kDeviceWidth-20+5+5+40+5+5+25+5+30+80+5, 150, 30)];
+    [buy addTarget:self action:@selector(buyAction:) forControlEvents:UIControlEventTouchUpInside];
+    [buy setBackgroundColor:[UIColor grayColor]];
+    [buy setTitle:@"立即购买" forState:UIControlStateNormal];
+    buy.titleLabel.font = AppBoldFont(20);
+    [self addSubview:buy];
+    
+    UIButton * car = [[UIButton alloc] initWithFrame:CGRectMake(170, kDeviceWidth-20+5+5+40+5+5+25+5+30+80+5, 150, 30)];
+    [car addTarget:self action:@selector(carAction:) forControlEvents:UIControlEventTouchUpInside];
+    [car setBackgroundColor:[UIColor grayColor]];
+    [car setTitle:@"加入购物车" forState:UIControlStateNormal];
+    car.titleLabel.font = AppBoldFont(20);
+    [self addSubview:car];
+    
+    
     
     
     
@@ -110,6 +192,21 @@
 }
 
 -(void)shareAction:(UIButton *)sender
+{
+
+}
+
+-(void)detailAction:(UIButton *)sender
+{
+
+}
+
+-(void)buyAction:(UIButton *)sender
+{
+
+}
+
+-(void)carAction:(UIButton *)sender
 {
 
 }

@@ -22,6 +22,10 @@
     return self;
 }
 
+-(void)layoutSubviews
+{
+    
+}
 
 -(void)creatButtons
 {

@@ -19,6 +19,7 @@
     }
     return self;
 }
+
 -(void)creatChildrenView
 {
     UIImageView * iconView = [[UIImageView alloc]initWithFrame:CGRectMake(5, 5, 70, 70)];

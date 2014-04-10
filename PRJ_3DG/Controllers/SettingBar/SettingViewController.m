@@ -36,6 +36,13 @@
     // Do any additional setup after loading the view from its nib.
     
     _dataShow = @{@"0": @[@"我的订单",@"收藏夹",@"优惠劵"],@"1":@[@"修改收货地址",@"修改账户密码"],@"2":@[@"更多"],@"3":@[@"退出"]};
+    
+    UITableView * tableV = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame)) style:UITableViewStyleGrouped];
+    self.tableV = tableV;
+    tableV.delegate = self;
+    tableV.dataSource = self;
+    tableV.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:tableV];
 }
 
 #pragma mark tableviewDelegate

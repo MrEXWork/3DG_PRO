@@ -8,9 +8,11 @@
 
 #import "BaseViewController.h"
 #import "PullingRefreshTableView.h"
-#import "ASIHTTPRequest.h"
+#import "NetTool.h"
 
-@interface ClassifyViewController : BaseViewController<PullingRefreshTableViewDelegate,UITableViewDataSource,UITableViewDelegate,ASIHTTPRequestDelegate>
+
+
+@interface ClassifyViewController : BaseViewController<PullingRefreshTableViewDelegate,UITableViewDataSource,UITableViewDelegate>
 
 @property (strong, nonatomic) NSMutableArray * datas;
 

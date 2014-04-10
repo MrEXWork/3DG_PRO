@@ -11,6 +11,6 @@
 @interface ShipingAddressVC : BaseViewController<UITableViewDataSource,UITableViewDelegate>
 
 
-@property (weak, nonatomic) IBOutlet UITableView *tableVAddresss;
+@property (retain, nonatomic) UITableView *tableVAddresss;
 
 @end

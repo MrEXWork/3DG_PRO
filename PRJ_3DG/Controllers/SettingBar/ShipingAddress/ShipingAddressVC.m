@@ -35,6 +35,13 @@
     
     _dataArr = @[@"ssfds",@"8ashf3",@"askfhej",@"asfs",@"dsfsd",@"9090",@"sdgd"];
     
+    UITableView * tableV = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame)) style:UITableViewStylePlain];
+    self.tableVAddresss = tableV;
+    tableV.delegate = self;
+    tableV.dataSource = self;
+    tableV.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:tableV];
+    
     UIButton * btnAddNew = [UIButton buttonWithType:UIButtonTypeCustom];
     btnAddNew.frame = CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 44);
     [btnAddNew setBackgroundColor:[UIColor brownColor]];

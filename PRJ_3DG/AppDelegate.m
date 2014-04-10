@@ -24,10 +24,11 @@
     //配置视图
     [self setupView];
     
+    
+    
     //
     [self.window makeKeyAndVisible];
     
-    NSLog(@"WWWW");
     
     return YES;
 }

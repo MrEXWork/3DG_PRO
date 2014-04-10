@@ -31,9 +31,16 @@
         int y = 5+(lineSpace + lableHeight)*i;
         UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(x, y, self.frame.size.width, lableHeight)];
         [button setTitle:[self.titles objectAtIndex:i] forState:UIControlStateNormal];
-        [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         button.titleLabel.font = AppFont(13);
         button.tag = 100+i;
+        if(button.tag == 100)
+        {
+            [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+        }
+        else
+        {
+            [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        }
         [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:button];
     }
@@ -46,9 +53,9 @@
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     }
     [sender setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    if([self.delegate respondsToSelector:@selector(indexButtonAction:)])
+    if([self.Buttondelegate respondsToSelector:@selector(indexButtonAction:)])
     {
-        [self.delegate indexButtonAction:sender.tag];
+        [self.Buttondelegate indexButtonAction:sender.tag];
     }
 }
 /*

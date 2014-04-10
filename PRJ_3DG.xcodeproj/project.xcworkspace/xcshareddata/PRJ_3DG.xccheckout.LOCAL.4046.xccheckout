@@ -5,23 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< HEAD
 	<string>F4E15368-3798-4A7B-96E4-9794E56EEB89</string>
-=======
-	<string>5492D3EC-68D3-4386-A0BA-3D5C9223761D</string>
->>>>>>> a27b1ae8a1e3306e7b6e650dbe65cad5f4b939e4
 	<key>IDESourceControlProjectName</key>
 	<string>PRJ_3DG</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>4CDE662D-25C4-4083-B923-09E596D41531</key>
+		<key>C8C4EDB7-976A-4B82-8E10-A692393AE345</key>
 		<string>https://github.com/MrEXWork/3DG_PRO.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>PRJ_3DG.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>4CDE662D-25C4-4083-B923-09E596D41531</key>
+		<key>C8C4EDB7-976A-4B82-8E10-A692393AE345</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -29,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4CDE662D-25C4-4083-B923-09E596D41531</string>
+	<string>C8C4EDB7-976A-4B82-8E10-A692393AE345</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>4CDE662D-25C4-4083-B923-09E596D41531</string>
+			<string>C8C4EDB7-976A-4B82-8E10-A692393AE345</string>
 			<key>IDESourceControlWCCName</key>
 			<string>3DG_PRO</string>
 		</dict>

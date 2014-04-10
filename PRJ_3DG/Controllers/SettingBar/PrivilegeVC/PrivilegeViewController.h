@@ -11,6 +11,6 @@
 @interface PrivilegeViewController : BaseViewController<UITableViewDataSource,UITableViewDelegate>
 
 
-@property (weak, nonatomic) IBOutlet UITableView *tableVprivilege;
+@property (retain, nonatomic) UITableView *tableVprivilege;
 
 @end

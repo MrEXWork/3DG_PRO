@@ -9,6 +9,7 @@
 #import "SpecificViewController.h"
 #import "SpecificCell.h"
 #import "AppDelegate.h"
+#import "GoodDetailsViewController.h"
 
 #define buttonHeight 20  //buttonHeight是”销量、价格、上架时间“按钮的高度
 
@@ -194,6 +195,12 @@
 -(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 85;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    GoodDetailsViewController * goodDetailsVC = [[GoodDetailsViewController alloc] init];
+    [self.navigationController pushViewController:goodDetailsVC animated:YES];
 }
 
 #pragma mark -

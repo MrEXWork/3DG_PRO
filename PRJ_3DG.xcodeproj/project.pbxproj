@@ -165,13 +165,9 @@
 		3A1752BC18F67DA300FDE8B9 /* ListScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1752B418F67DA300FDE8B9 /* ListScrollView.m */; };
 		3A1752BD18F67DA300FDE8B9 /* SpecificCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1752B618F67DA300FDE8B9 /* SpecificCell.m */; };
 		3A19160E18F420FD00C4C7F0 /* SpecificViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A19160D18F420FD00C4C7F0 /* SpecificViewController.m */; };
-<<<<<<< HEAD
-		3A19161518F433F900C4C7F0 /* u99_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A19161418F433F900C4C7F0 /* u99_normal.png */; };
-=======
 		3A19161318F433EE00C4C7F0 /* u4_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A19161218F433EE00C4C7F0 /* u4_normal.png */; };
 		3A19161518F433F900C4C7F0 /* u99_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A19161418F433F900C4C7F0 /* u99_normal.png */; };
 		3A19161718F4340000C4C7F0 /* u114_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A19161618F4340000C4C7F0 /* u114_normal.png */; };
->>>>>>> 938470dcf98cabdf8e46c9be099b6fcd9338b311
 		3A2476C018F14A7A00DFB821 /* ClassifyIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2476BF18F14A7A00DFB821 /* ClassifyIndexViewController.m */; };
 		3A4D3C0B18EB198D00B01C5A /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D3C0A18EB198D00B01C5A /* MyAccountViewController.m */; };
 		3A83005218F4D83D0018946F /* GoodDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83005118F4D83D0018946F /* GoodDetailsViewController.m */; };
@@ -1335,38 +1331,6 @@
 			path = UIDeviceAdditions;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
-		3A1752A818F67DA300FDE8B9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3A1752BE18F67DC000FDE8B9 /* Classify */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		3A1752BE18F67DC000FDE8B9 /* Classify */ = {
-			isa = PBXGroup;
-			children = (
-				3A1752A918F67DA300FDE8B9 /* ClassifyCell.h */,
-				3A1752AA18F67DA300FDE8B9 /* ClassifyCell.m */,
-				3A1752AB18F67DA300FDE8B9 /* ClassifyIndexView.h */,
-				3A1752AC18F67DA300FDE8B9 /* ClassifyIndexView.m */,
-				3A1752AD18F67DA300FDE8B9 /* DetailsView.h */,
-				3A1752AE18F67DA300FDE8B9 /* DetailsView.m */,
-				3A1752AF18F67DA300FDE8B9 /* EvaluationView.h */,
-				3A1752B018F67DA300FDE8B9 /* EvaluationView.m */,
-				3A1752B118F67DA300FDE8B9 /* IntroductionView.h */,
-				3A1752B218F67DA300FDE8B9 /* IntroductionView.m */,
-				3A1752B318F67DA300FDE8B9 /* ListScrollView.h */,
-				3A1752B418F67DA300FDE8B9 /* ListScrollView.m */,
-				3A1752B518F67DA300FDE8B9 /* SpecificCell.h */,
-				3A1752B618F67DA300FDE8B9 /* SpecificCell.m */,
-			);
-			name = Classify;
-			sourceTree = "<group>";
-		};
->>>>>>> 938470dcf98cabdf8e46c9be099b6fcd9338b311
 		3A4D3C0818EB190C00B01C5A /* MyAccount */ = {
 			isa = PBXGroup;
 			children = (
